@@ -1,131 +1,173 @@
-<!-- Header: AI Typing Animation with Floating Neon Lights -->
-<h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&duration=3000&pause=1000&color=00D1F7&center=true&vCenter=true&width=1000&height=100&lines=Kashyap+Patel;Software+Engineer+%7C+Cloud+%26+AI+Developer;Building+AI+&+Cloud+Solutions;Game+Developer+%7C+ML+Engineer" alt="Kashyap Patel Typing Animation"/>
-</h1>
-
-<!-- 3D Avatar & Neon Frame -->
-<p align="center">
-  <img src="https://your-3d-avatar-link.com" width="250" height="250" alt="Kashyap Patel Avatar" style="border-radius:50%; box-shadow: 0px 0px 20px rgba(0, 209, 247, 0.8);"/>
-</p>
-
----
-
-### 🚀 **About Me**
-<div align="center" style="border: 2px solid #00D1F7; padding: 20px; border-radius: 15px; background: #001B26; color: #ffffff;">
-  <strong>💻 Software Engineer:</strong> Expert in Cloud & AI Development <br/>
-  <strong>🧠 Game Developer:</strong> Unity 3D, AI for Games, WebSockets <br/>
-  <strong>📊 Data Scientist:</strong> ML, Deep Learning, Predictive Models <br/>
-  <strong>🔥 Competitive Programmer:</strong> LeetCode Top 12.64%, Hackathons <br/>
+<!-- Futuristic Header -->
+<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:3d85c6,100:00ffff&height=200&section=header&text=Kashyap%20Patel&fontSize=70&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=AI%20Innovator%20|%20Cloud%20Architect%20|%20Game%20Developer&descAlignY=60&descAlign=50" />
 </div>
 
----
-
-### 🛠️ **Technical Skills**
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=gcp,aws,tensorflow,unity,cpp,python,docker,kubernetes,sql,react,html,css,js" alt="Tech Stack" style="margin: 15px; box-shadow: 0px 0px 15px rgba(0, 209, 247, 0.8);"/>
-</p>
-
----
-
-### 🏆 **Certifications & Achievements**
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=DeAtHfIrE26&theme=onestar&no-frame=true&margin-w=15&margin-h=15" alt="Trophies"/>
-</p>
-
-- **Google Cloud Certified: Associate Cloud Engineer, Cloud Digital Leader, Professional Level Certification (Digital Assets)**
-- **AWS Cloud Practitioner**
-- **AI Mastery:** TensorFlow, LLMs, ChatGPT
-- **LeetCode Contest:** Ranked in Top 12.64%, Two Contests Ranked Under 2000
-- **Hackathon:** Ranked High in HackerEarth Hackathons
-
----
-
-### 🚀 **Work Experience**
-<div align="center" style="border: 3px solid #00D1F7; padding: 15px; border-radius: 15px; box-shadow: 0px 0px 30px rgba(247, 37, 133, 0.8); background: #001B26; color: #ffffff;">
-  <strong>Cloud Engineer Intern</strong> - Google Cloud | <em>Aug 2023 – Nov 2023 (95 Days)</em> <br/>
-  - Developed scalable cloud solutions on GCP, reducing downtime by 40% and increasing data protection by 25%. <br/>
-  - Strengthened security protocols, boosting system reliability.
-
-  <strong>Artificial Intelligence Developer Intern</strong> - TEACHNOOK | <em>Jun 2024 – Jul 2024 (2 Months)</em> <br/>
-  - Optimized AI models with TensorFlow, improving accuracy by 20%, and reducing training time by 30%.
-  - Implemented data preprocessing for model performance enhancement.
+<!-- Animated Introduction -->
+<div align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00FFFF&center=true&vCenter=true&width=650&lines=Welcome+to+my+Digital+Realm!;Innovating+at+the+Intersection+of+AI+and+Cloud;Crafting+Immersive+Gaming+Experiences;Pushing+the+Boundaries+of+Machine+Learning" alt="Typing SVG" />
+  </a>
 </div>
 
----
-
-### 🎮 **Projects**
+<!-- Profile Views Counter -->
 <p align="center">
-  <div style="border: 3px solid rgba(0, 209, 247, 0.5); padding: 15px; border-radius: 15px; box-shadow: 0px 0px 30px rgba(247, 37, 133, 0.8);">
-    <a href="https://github.com/DeAtHfIrE26/ChatBot_Doctor_Using_FTM" target="_blank">
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=DeAtHfIrE26&repo=ChatBot_Doctor_Using_FTM&theme=algolia" alt="ChatBot Doctor Using FTM"/>
-    </a>
-    <a href="https://github.com/DeAtHfIrE26/AI_Pac_MAN_GAME" target="_blank">
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=DeAtHfIrE26&repo=AI_Pac_MAN_GAME&theme=algolia" alt="AI Pac-Man Game"/>
-    </a>
-  </div>
+  <img src="https://komarev.com/ghpvc/?username=DeAtHfIrE26&label=Profile%20Views&color=blueviolet&style=for-the-badge" alt="Profile Views">
 </p>
 
-- **AI Gaming Models & Doctor ChatBot Development**: Developed AI-powered models for games (Kung-Fu, Pac-Man), integrated LLMs, and boosted engagement by 40%.
-- **Turn-Based Chess-like Game**: Built a real-time chess-like game with WebSocket communication and server-client architecture in **1 day**.
-- **Doofus Adventure Game**: Created a 3D adventure game with randomized platform dynamics in **2 days**.
-- **Carpooling System with Reward System**: Increased ride-sharing efficiency by 40%, reducing costs by 30%.
-- **Telecom Customer Churn Analysis**: Predicted customer churn using advanced ML techniques to improve retention strategies.
-
----
-
-### 🌟 **GitHub Highlights**
+<!-- Animated Tech Stack -->
+<h2 align="center">🚀 Tech Arsenal</h2>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=DeAtHfIrE26&show_icons=true&theme=algolia&count_private=true&hide_border=true&include_all_commits=true" alt="GitHub Stats"/>
-  <img src="https://streak-stats.demolab.com?user=DeAtHfIrE26&theme=algolia&hide_border=true" alt="GitHub Streak"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DeAtHfIrE26&layout=compact&theme=algolia&langs_count=8&hide_border=true" alt="Top Languages"/>
+  <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="65" height="65" />
+  <img src="https://techstack-generator.vercel.app/cpp-icon.svg" alt="C++" width="65" height="65" />
+  <img src="https://techstack-generator.vercel.app/aws-icon.svg" alt="AWS" width="65" height="65" />
+  <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="GitHub" width="65" height="65" />
+  <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="65" height="65" />
+  <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" width="65" height="65" />
+  <img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" alt="Kubernetes" width="65" height="65" />
 </p>
 
----
-
-### ⚡ **LeetCode Stats**
-<p align="center">
-  <img src="https://leetcard.jacoblin.cool/Kashyap_patel26?theme=dark&font=Roboto&ext=heatmap&animation=true" alt="LeetCode Stats"/>
-</p>
-
-- **Contest Rating**: 1,703
-- **Global Ranking**: Top 12.64%
-- **Problems Solved**: 163+
-
----
-
-### 💼 **Education**
-<div align="center" style="border: 3px solid #00D1F7; padding: 15px; border-radius: 15px; box-shadow: 0px 0px 30px rgba(247, 37, 133, 0.8); background: #001B26; color: #ffffff;">
-  <strong>Vellore Institute of Technology (VIT)</strong> | <em>BTech CSE: 8.42 CGPA</em> <br/>
-  <strong>Gandhinagar International Public School</strong> | <em>HSC: 89.2%, SSC: 93.6%</em>
+<!-- 3D Contribution Graph -->
+<div align="center">
+  <h2>🏆 Contributions & Streaks</h2>
+  <a href="https://github.com/DeAtHfIrE26/3d-contrib-graph">
+    <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" width="100%">
+  </a>
 </div>
 
----
+<!-- AI & ML Projects Showcase -->
+<h2 align="center">🧠 AI & ML Innovations</h2>
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%">
+        <h3 align="center">AI-Powered Healthcare Chatbot</h3>
+        <div align="center">
+          <a href="https://github.com/DeAtHfIrE26/ChatBot_Doctor_Using_FTM" target="_blank">
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=DeAtHfIrE26&repo=ChatBot_Doctor_Using_FTM&theme=radical&hide_border=true" width="100%" alt="AI Healthcare Chatbot" />
+          </a>
+          <br><br>
+          <p>
+            <a href="https://github.com/DeAtHfIrE26/ChatBot_Doctor_Using_FTM" target="_blank">
+              <img src="https://img.shields.io/badge/Code-View%20on%20GitHub-blue?style=for-the-badge&logo=github" />
+            </a>
+          </p>
+          <p><strong>Python, TensorFlow, NLP, Flask</strong> - An advanced AI chatbot for healthcare diagnostics and support.</p>
+        </div>
+      </td>
+      <td width="50%">
+        <h3 align="center">AI-Driven Pac-Man Game</h3>
+        <div align="center">
+          <a href="https://github.com/DeAtHfIrE26/AI_Pac_MAN_GAME" target="_blank">
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=DeAtHfIrE26&repo=AI_Pac_MAN_GAME&theme=radical&hide_border=true" width="100%" alt="AI Pac-Man Game" />
+          </a>
+          <br><br>
+          <p>
+            <a href="https://github.com/DeAtHfIrE26/AI_Pac_MAN_GAME" target="_blank">
+              <img src="https://img.shields.io/badge/Code-View%20on%20GitHub-blue?style=for-the-badge&logo=github" />
+            </a>
+          </p>
+          <p><strong>Python, PyGame, Reinforcement Learning</strong> - A reimagined Pac-Man game with AI-controlled ghosts and adaptive difficulty.</p>
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
 
-### 🎓 **Certificates**
-<p align="center">
-  <!-- 3D Badge Frame -->
-  <div style="border: 2px solid rgba(0, 209, 247, 0.5); padding: 15px; border-radius: 15px; box-shadow: 0px 0px 30px rgba(247, 37, 133, 0.8);">
-    <img src="https://your-google-cloud-badge-link.com" width="100" alt="Google Cloud Badge"/>
-    <img src="https://your-aws-badge-link.com" width="100" alt="AWS Badge"/>
-    <img src="https://your-ai-badge-link.com" width="100" alt="AI Badge"/>
-  </div>
-</p>
+<!-- Skill Progression -->
+<h2 align="center">💻 Skill Progression</h2>
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="https://img.shields.io/badge/Machine%20Learning-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%86-8A2BE2" /></td>
+      <td><img src="https://img.shields.io/badge/Cloud%20Architecture-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%86-4285F4" /></td>
+    </tr>
+    <tr>
+      <td><img src="https://img.shields.io/badge/Game%20Development-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%86-FF6F61" /></td>
+      <td><img src="https://img.shields.io/badge/Data%20Science-%E2%98%85%E2%98%85%E2%98%85%E2%98%86%E2%98%86-44D7B6" /></td>
+    </tr>
+    <tr>
+      <td><img src="https://img.shields.io/badge/Web%20Development-%E2%98%85%E2%98%85%E2%98%85%E2%98%86%E2%98%86-F7DF1E" /></td>
+      <td><img src="https://img.shields.io/badge/DevOps-%E2%98%85%E2%98%85%E2%98%85%E2%98%86%E2%98%86-25C2A0" /></td>
+    </tr>
+  </table>
+</div>
 
-- **Google Cloud Digital Leader (Certified)**
-- **AWS Cloud Practitioner**
-- **AI Models (TensorFlow, ChatGPT, LLMs)**
+<!-- GitHub Stats & Activity -->
+<h2 align="center">📊 GitHub Metrics</h2>
+<div align="center">
+  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=DeAtHfIrE26&show_icons=true&count_private=true&hide_border=true&title_color=00ffff&icon_color=00ffff&text_color=c9d1d9&bg_color=0d1117" alt="Kashyap Patel's GitHub Stats" /> 
+  <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DeAtHfIrE26&layout=compact&hide_border=true&title_color=00ffff&text_color=00ffff&bg_color=0d1117" alt="Most Used Languages" />
+</div>
 
----
+<!-- Leetcode Stats -->
+<h2 align="center">🏆 LeetCode Achievements</h2>
+<div align="center">
+  <img src="https://leetcode-stats-six.vercel.app/?username=Kashyap_patel26&theme=dark" alt="LeetCode Stats" />
+</div>
 
-### 💬 **Connect with Me**
-<p align="center">
-  <a href="https://github.com/DeAtHfIrE26" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge"/>
+<!-- Certifications -->
+<h2 align="center">🎓 Certifications</h2>
+<div align="center">
+  <img src="https://img.shields.io/badge/Google%20Cloud%20Certified-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="Google Cloud Certified" />
+  <img src="https://img.shields.io/badge/AWS%20Certified-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS Certified" />
+  <img src="https://img.shields.io/badge/Microsoft%20Certified-0089D6?style=for-the-badge&logo=microsoft&logoColor=white" alt="Microsoft Certified" />
+  <img src="https://img.shields.io/badge/TensorFlow%20Certified-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow Certified" />
+</div>
+
+<!-- Animated Snake -->
+<div align="center">
+  <h2>🐍 Contribution Graph</h2>
+  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/DeAtHfIrE26/DeAtHfIrE26/output/github-contribution-grid-snake.svg" />
+</div>
+
+<!-- Connect With Me -->
+<h2 align="center">🌐 Let's Connect</h2>
+<div align="center">
+  <a href="https://linkedin.com/in/kashyap-patel" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://leetcode.com/Kashyap_patel26" target="_blank">
-    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Badge"/>
+  <a href="https://twitter.com/YourTwitterHandle" target="_blank">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
   </a>
-  <a href="https://www.linkedin.com/in/kashyap-patel/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  <a href="https://kashyappatel.dev" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white" alt="Portfolio" />
   </a>
-</p>
+</div>
+
+<!-- Visitor Counter -->
+<div align="center">
+  <img src="https://profile-counter.glitch.me/DeAtHfIrE26/count.svg" alt="Visitor Count" />
+</div>
+
+<!-- Footer -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00ffff&height=120&section=footer"/>
+
+<style>
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+}
+
+img {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+</style>
+
+<script>
+// Add any JavaScript for interactivity here
+</script>
