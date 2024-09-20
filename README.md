@@ -37,7 +37,6 @@
 ---
 
 # <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"><b> Skills</b>
-
 <table align="center">
   <tr>
     <td align="center" width="96">
@@ -70,36 +69,97 @@
     </td>
   </tr>
   <tr>
+<table align="center">
+  <tr>
     <td align="center" width="96">
-      <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="TensorFlow" width="48" height="48"/>
-      <br>TensorFlow
+      <img src="https://techstack-generator.vercel.app/leetcode-icon.svg" alt="LeetCode" width="65" height="65" />
+      <br>LeetCode
     </td>
     <td align="center" width="96">
-      <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="PyTorch" width="48" height="48"/>
-      <br>PyTorch
+      <img src="https://techstack-generator.vercel.app/codeforces-icon.svg" alt="Codeforces" width="65" height="65" />
+      <br>Codeforces
     </td>
     <td align="center" width="96">
-      <img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg" alt="React" width="48" height="48"/>
-      <br>React
+      <img src="https://techstack-generator.vercel.app/linkedin-icon.svg" alt="LinkedIn" width="65" height="65" />
+      <br>LinkedIn
     </td>
     <td align="center" width="96">
-      <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg" alt="Node.js" width="48" height="48"/>
-      <br>Node.js
+      <img src="https://techstack-generator.vercel.app/chatgpt-icon.svg" alt="ChatGPT" width="65" height="65" />
+      <br>ChatGPT (OpenAI)
     </td>
     <td align="center" width="96">
-      <img src="https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg" alt="MongoDB" width="48" height="48"/>
-      <br>MongoDB
+      <img src="https://techstack-generator.vercel.app/claudeai-icon.svg" alt="Claude AI" width="65" height="65" />
+      <br>Claude AI
     </td>
     <td align="center" width="96">
-      <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="GCP" width="48" height="48"/>
+      <img src="https://techstack-generator.vercel.app/blackbox-icon.svg" alt="BlackBox" width="65" height="65" />
+      <br>BlackBox
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="96">
+      <img src="https://techstack-generator.vercel.app/gymnasium-icon.svg" alt="Gymnasium" width="65" height="65" />
+      <br>Gymnasium
+    </td>
+    <td align="center" width="96">
+      <img src="https://techstack-generator.vercel.app/sql-icon.svg" alt="SQL" width="65" height="65" />
+      <br>SQL
+    </td>
+    <td align="center" width="96">
+      <img src="https://techstack-generator.vercel.app/aws-icon.svg" alt="AWS Services" width="65" height="65" />
+      <br>AWS Services
+    </td>
+    <td align="center" width="96">
+      <img src="https://techstack-generator.vercel.app/deepface-icon.svg" alt="DeepFace" width="65" height="65" />
+      <br>DeepFace
+    </td>
+    <td align="center" width="96">
+      <img src="https://techstack-generator.vercel.app/websockets-icon.svg" alt="WebSockets" width="65" height="65" />
+      <br>WebSockets
+    </td>
+    <td align="center" width="96">
+      <img src="https://techstack-generator.vercel.app/imagineai-icon.svg" alt="Imagine AI" width="65" height="65" />
+      <br>Imagine AI
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="96">
+      <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="GCP" width="48" height="48" />
       <br>GCP
     </td>
     <td align="center" width="96">
-      <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="Firebase" width="48" height="48"/>
-      <br>Firebase
+      <img src="https://techstack-generator.vercel.app/deepmind-icon.svg" alt="DeepMind" width="65" height="65" />
+      <br>DeepMind
+    </td>
+    <td align="center" width="96">
+      <img src="https://techstack-generator.vercel.app/deeplearning-icon.svg" alt="DeepLearning" width="65" height="65" />
+      <br>DeepLearning
+    </td>
+    <td align="center" width="96">
+      <img src="https://techstack-generator.vercel.app/machinelearning-icon.svg" alt="Machine Learning" width="65" height="65" />
+      <br>Machine Learning
+    </td>
+    <td align="center" width="96">
+      <img src="https://techstack-generator.vercel.app/opencv-icon.svg" alt="OpenCV" width="65" height="65" />
+      <br>OpenCV
+    </td>
+    <td align="center" width="96">
+      <img src="https://techstack-generator.vercel.app/yolo-icon.svg" alt="YOLO" width="65" height="65" />
+      <br>YOLO
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="96">
+      <img src="https://techstack-generator.vercel.app/cisco-icon.svg" alt="Cisco Networking" width="65" height="65" />
+      <br>Cisco Networking
+    </td>
+    <td align="center" width="96">
+      <img src="https://techstack-generator.vercel.app/neo4j-icon.svg" alt="Neo4j" width="65" height="65" />
+      <br>Neo4j
     </td>
   </tr>
 </table>
+
 
 ---
 
