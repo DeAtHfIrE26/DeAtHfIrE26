@@ -167,24 +167,88 @@
 <img width="2000rem" src="https://raw.githubusercontent.com/SamirPaulb/SamirPaulb/main/assets/rainbow-superthin.webp"><br>
 
 
-<!-- AI & ML Projects Showcase -->
-<h2 align="center">🔬 AI & ML Innovations</h2>
+<!-- GitHub Projects Showcase -->
+<h2 align="center">🚀 My GitHub Projects</h2>
 <div align="center">
   <table>
     <tr>
       <td width="50%">
-        <h3 align="center">AI-Powered Healthcare Chatbot</h3>
+        <h3 align="center">Document Retrieval System</h3>
         <div align="center">
-          <a href="https://github.com/DeAtHfIrE26/ChatBot_Doctor_Using_FTM" target="_blank">
-            <img src="https://github-readme-stats.vercel.app/api/pin/?username=DeAtHfIrE26&repo=ChatBot_Doctor_Using_FTM&theme=radical&hide_border=true" width="100%" alt="AI Healthcare Chatbot" />
+          <a href="https://github.com/DeAtHfIrE26/document_retrieval_system" target="_blank">
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=DeAtHfIrE26&repo=document_retrieval_system&theme=radical&hide_border=true" width="100%" alt="Document Retrieval System" />
           </a>
           <br><br>
           <p>
-            <a href="https://github.com/DeAtHfIrE26/ChatBot_Doctor_Using_FTM" target="_blank">
+            <a href="https://github.com/DeAtHfIrE26/document_retrieval_system" target="_blank">
               <img src="https://img.shields.io/badge/Code-View%20on%20GitHub-blue?style=for-the-badge&logo=github" />
             </a>
           </p>
-          <p><strong>Python, TensorFlow, NLP, Flask</strong> - An advanced AI chatbot for healthcare diagnostics and support.</p>
+          <p><strong>Information Retrieval, NLP</strong> - An efficient document retrieval system using advanced IR techniques.</p>
+        </div>
+      </td>
+      <td width="50%">
+        <h3 align="center">Doofus Adventure Game</h3>
+        <div align="center">
+          <a href="https://github.com/DeAtHfIrE26/HW_2024_Test" target="_blank">
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=DeAtHfIrE26&repo=HW_2024_Test&theme=radical&hide_border=true" width="100%" alt="Doofus Adventure Game" />
+          </a>
+          <br><br>
+          <p>
+            <a href="https://github.com/DeAtHfIrE26/HW_2024_Test" target="_blank">
+              <img src="https://img.shields.io/badge/Code-View%20on%20GitHub-blue?style=for-the-badge&logo=github" />
+            </a>
+          </p>
+          <p><strong>Game Development</strong> - An engaging adventure game featuring the character Doofus.</p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td width="50%">
+        <h3 align="center">Turn-based Chess-like Game</h3>
+        <div align="center">
+          <a href="https://github.com/DeAtHfIrE26/Patel-Kashyap-Kalpeshkumar_21BCE0216" target="_blank">
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=DeAtHfIrE26&repo=Patel-Kashyap-Kalpeshkumar_21BCE0216&theme=radical&hide_border=true" width="100%" alt="Turn-based Chess-like Game" />
+          </a>
+          <br><br>
+          <p>
+            <a href="https://github.com/DeAtHfIrE26/Patel-Kashyap-Kalpeshkumar_21BCE0216" target="_blank">
+              <img src="https://img.shields.io/badge/Code-View%20on%20GitHub-blue?style=for-the-badge&logo=github" />
+            </a>
+          </p>
+          <p><strong>Game Logic, AI</strong> - A strategic turn-based game inspired by chess mechanics.</p>
+        </div>
+      </td>
+      <td width="50%">
+        <h3 align="center">Carpooling With Reward System</h3>
+        <div align="center">
+          <a href="https://github.com/DeAtHfIrE26/Carpooling_With_RewardSystem" target="_blank">
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=DeAtHfIrE26&repo=Carpooling_With_RewardSystem&theme=radical&hide_border=true" width="100%" alt="Carpooling With Reward System" />
+          </a>
+          <br><br>
+          <p>
+            <a href="https://github.com/DeAtHfIrE26/Carpooling_With_RewardSystem" target="_blank">
+              <img src="https://img.shields.io/badge/Code-View%20on%20GitHub-blue?style=for-the-badge&logo=github" />
+            </a>
+          </p>
+          <p><strong>Transportation, Rewards</strong> - An innovative carpooling system with integrated rewards for users.</p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td width="50%">
+        <h3 align="center">AI Lunar Landing</h3>
+        <div align="center">
+          <a href="https://github.com/DeAtHfIrE26/AI_Lunar_Landing" target="_blank">
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=DeAtHfIrE26&repo=AI_Lunar_Landing&theme=radical&hide_border=true" width="100%" alt="AI Lunar Landing" />
+          </a>
+          <br><br>
+          <p>
+            <a href="https://github.com/DeAtHfIrE26/AI_Lunar_Landing" target="_blank">
+              <img src="https://img.shields.io/badge/Code-View%20on%20GitHub-blue?style=for-the-badge&logo=github" />
+            </a>
+          </p>
+          <p><strong>AI, Reinforcement Learning</strong> - An AI model trained to perform lunar landings in a simulated environment.</p>
         </div>
       </td>
       <td width="50%">
@@ -199,7 +263,56 @@
               <img src="https://img.shields.io/badge/Code-View%20on%20GitHub-blue?style=for-the-badge&logo=github" />
             </a>
           </p>
-          <p><strong>Python, PyGame, Reinforcement Learning</strong> - A reimagined Pac-Man game with AI-controlled ghosts and adaptive difficulty.</p>
+          <p><strong>Python, PyGame, AI</strong> - A reimagined Pac-Man game with AI-controlled ghosts and adaptive difficulty.</p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td width="50%">
+        <h3 align="center">KungFu A3C</h3>
+        <div align="center">
+          <a href="https://github.com/DeAtHfIrE26/KungFu_A3C" target="_blank">
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=DeAtHfIrE26&repo=KungFu_A3C&theme=radical&hide_border=true" width="100%" alt="KungFu A3C" />
+          </a>
+          <br><br>
+          <p>
+            <a href="https://github.com/DeAtHfIrE26/KungFu_A3C" target="_blank">
+              <img src="https://img.shields.io/badge/Code-View%20on%20GitHub-blue?style=for-the-badge&logo=github" />
+            </a>
+          </p>
+          <p><strong>Reinforcement Learning, A3C</strong> - Implementation of the A3C algorithm for a KungFu-themed environment.</p>
+        </div>
+      </td>
+      <td width="50%">
+        <h3 align="center">AI-Powered Healthcare Chatbot</h3>
+        <div align="center">
+          <a href="https://github.com/DeAtHfIrE26/ChatBot_Doctor_Using_FTM" target="_blank">
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=DeAtHfIrE26&repo=ChatBot_Doctor_Using_FTM&theme=radical&hide_border=true" width="100%" alt="AI Healthcare Chatbot" />
+          </a>
+          <br><br>
+          <p>
+            <a href="https://github.com/DeAtHfIrE26/ChatBot_Doctor_Using_FTM" target="_blank">
+              <img src="https://img.shields.io/badge/Code-View%20on%20GitHub-blue?style=for-the-badge&logo=github" />
+            </a>
+          </p>
+          <p><strong>Python, NLP, Healthcare AI</strong> - An advanced AI chatbot for healthcare diagnostics and support.</p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td width="50%">
+        <h3 align="center">Sentiment Analysis</h3>
+        <div align="center">
+          <a href="https://github.com/DeAtHfIrE26/Sentiment_Analysis" target="_blank">
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=DeAtHfIrE26&repo=Sentiment_Analysis&theme=radical&hide_border=true" width="100%" alt="Sentiment Analysis" />
+          </a>
+          <br><br>
+          <p>
+            <a href="https://github.com/DeAtHfIrE26/Sentiment_Analysis" target="_blank">
+              <img src="https://img.shields.io/badge/Code-View%20on%20GitHub-blue?style=for-the-badge&logo=github" />
+            </a>
+          </p>
+          <p><strong>NLP, Machine Learning</strong> - A project focused on analyzing and determining sentiment in text data.</p>
         </div>
       </td>
     </tr>
@@ -214,20 +327,24 @@
 <div align="center">
   <table>
     <tr>
-      <td><img src="https://img.shields.io/badge/Machine%20Learning-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%86-8A2BE2" /></td>
-      <td><img src="https://img.shields.io/badge/Deep%20Learning-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%86-FF6F61" /></td>
+      <td><img src="https://img.shields.io/badge/Cloud%20Platforms%20(GCP%2C%20AWS)-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-4285F4" /></td>
+      <td><img src="https://img.shields.io/badge/Google%20Cloud%20Digital%20Leader-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-0F9D58" /></td>
     </tr>
     <tr>
-      <td><img src="https://img.shields.io/badge/Cloud%20Architecture-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%86-4285F4" /></td>
-      <td><img src="https://img.shields.io/badge/NLP-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%86-00BFFF" /></td>
+      <td><img src="https://img.shields.io/badge/AI%20Development-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-FF6F61" /></td>
+      <td><img src="https://img.shields.io/badge/Machine%20Learning%20(LLM)-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%86-8A2BE2" /></td>
     </tr>
     <tr>
-      <td><img src="https://img.shields.io/badge/Game%20Development-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%86-32CD32" /></td>
-      <td><img src="https://img.shields.io/badge/Data%20Science-%E2%98%85%E2%98%85%E2%98%85%E2%98%86%E2%98%86-44D7B6" /></td>
+      <td><img src="https://img.shields.io/badge/Game%20Development%20(Unity)-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%86-32CD32" /></td>
+      <td><img src="https://img.shields.io/badge/OOPS%20and%20Networking-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%86-00BFFF" /></td>
     </tr>
     <tr>
-      <td><img src="https://img.shields.io/badge/Web%20Development-%E2%98%85%E2%98%85%E2%98%85%E2%98%86%E2%98%86-F7DF1E" /></td>
-      <td><img src="https://img.shields.io/badge/DevOps-%E2%98%85%E2%98%85%E2%98%85%E2%98%86%E2%98%86-25C2A0" /></td>
+      <td><img src="https://img.shields.io/badge/Programming%20(C%2FC%2B%2B%2C%20Python)-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-orange" /></td>
+      <td><img src="https://img.shields.io/badge/Operating%20Systems%20(Windows)-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%86-4CAF50" /></td>
+    </tr>
+    <tr>
+      <td><img src="https://img.shields.io/badge/SQL%20Integration-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%86-44D7B6" /></td>
+      <td><img src="https://img.shields.io/badge/Time%20Management%20%26%20Leadership-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-FFD700" /></td>
     </tr>
   </table>
 </div>
@@ -255,31 +372,6 @@
 
 ![LeetCode Stats](https://leetcard.jacoblin.cool/Kashyap_patel26?theme=light&font=Baloo&ext=heatmap)
 
-## 🏆 LeetCode Achievements
-
-<!-- LEETCODE_STATS:START -->
-<!-- This section will be automatically updated by GitHub Actions -->
-<!-- LEETCODE_STATS:END -->
-
-## 🧠 Problem Solving Progress
-
-<!-- LEETCODE_PROBLEMS:START -->
-<!-- This section will be automatically updated by GitHub Actions -->
-<!-- LEETCODE_PROBLEMS:END -->
-
-## 🔥 Recent Submissions
-
-<!-- LEETCODE_RECENT:START -->
-<!-- This section will be automatically updated by GitHub Actions -->
-<!-- LEETCODE_RECENT:END -->
-
-## 📊 Submission Calendar
-
-<!-- LEETCODE_CALENDAR:START -->
-<!-- This section will be automatically updated by GitHub Actions -->
-<!-- LEETCODE_CALENDAR:END -->
-
----
 
 <p align="center">
   <a href="https://leetcode.com/Kashyap_patel26/" target="_blank">
