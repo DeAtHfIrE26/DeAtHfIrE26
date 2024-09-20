@@ -1,9 +1,14 @@
+<img width="2000rem" src="https://raw.githubusercontent.com/SamirPaulb/SamirPaulb/main/assets/rainbow-superthin.webp"><br>
+
 ![Professional_Linkedin@2x](https://github.com/user-attachments/assets/2678586f-233a-4f91-bfdb-711535522b54)
 
+<img width="2000rem" src="https://raw.githubusercontent.com/SamirPaulb/SamirPaulb/main/assets/rainbow-superthin.webp"><br>
 <!-- Futuristic Header -->
 <div align="center">
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:3d85c6,100:00ffff&height=200&section=header&text=Kashyap%20Patel&fontSize=70&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=AI%20Innovator%20|%20Cloud%20Architect%20|%20Game%20Developer&descAlignY=60&descAlign=50" />
 </div>
+
+<img width="2000rem" src="https://raw.githubusercontent.com/SamirPaulb/SamirPaulb/main/assets/rainbow-superthin.webp"><br>
 
 <!-- Animated Introduction -->
 <div align="center">
@@ -457,11 +462,10 @@
 <img width="2000rem" src="https://raw.githubusercontent.com/SamirPaulb/SamirPaulb/main/assets/rainbow-superthin.webp"><br>
 
 ## 🌟 Inspirational Quote of the Day
-
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2000&pause=1000&color=36BCF7FF&center=true&vCenter=true&multiline=true&width=600&height=100&lines=DYNAMIC_QUOTE" alt="Inspirational Quote" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=4000&pause=1000&color=36BCF7&center=true&vCenter=true&width=800&lines=It+is+not+the+strongest+of+the+species;that+survive%2C+nor+the+most+intelligent%2C;but+the+one+most+responsive+to+change.;-+Charles+Darwin;;The+only+limit+to+our+realization+of+tomorrow;is+our+doubts+of+today.;-+Franklin+D.+Roosevelt;;Success+is+not+final%2C+failure+is+not+fatal%3A;It+is+the+courage+to+continue+that+counts.;-+Winston+Churchill;;The+best+way+to+predict+the+future;is+to+invent+it.;-+Alan+Kay;;Do+not+go+where+the+path+may+lead%2C;go+instead+where+there+is+no+path;and+leave+a+trail.;-+Ralph+Waldo+Emerson" alt="Inspirational Quotes" />
 </div>
-
+<img width="2000rem" src="https://raw.githubusercontent.com/SamirPaulb/SamirPaulb/main/assets/rainbow-superthin.webp"><br>
 
 <h2 align="center">🌟 Thank you for visiting my GitHub profile! 🌟</h2>
 <p align="center">Feel free to explore my repositories and don't hesitate to reach out for collaborations or just a friendly chat about tech!</p>
@@ -469,3 +473,5 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/DeAtHfIrE26/DeAtHfIrE26/main/assets/wave.gif" width="100%" alt="Wave Animation">
 </div>
+
+<img width="2000rem" src="https://raw.githubusercontent.com/SamirPaulb/SamirPaulb/main/assets/rainbow-superthin.webp"><br>
