@@ -12,6 +12,7 @@
   </a>
 </div>
 
+<img width="2000rem" src="https://raw.githubusercontent.com/SamirPaulb/SamirPaulb/main/assets/rainbow-superthin.webp"><br>
 
 # 💫 About Me:
 ### AI Innovator 🤖 | Cloud Architect ☁️ | Game Developer 🎮 |
@@ -24,6 +25,8 @@
 - <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Gem%20Stone.png" alt="Gem Stone" width="25" align="center" /> **2024 Goals:** Master Machine Learning, DevOps, and strengthen DSA skills
 
 ---
+<img width="2000rem" src="https://raw.githubusercontent.com/SamirPaulb/SamirPaulb/main/assets/rainbow-superthin.webp"><br>
+
 
 <h2 align="center"><img src="https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/handshake.gif" width="50px" style="max-width: 100%; user-select: auto;"> Connect with Me </h2>
 
@@ -34,7 +37,7 @@
   <a href="tel:+919898318841"><img align="center" src="https://img.shields.io/badge/Contact-4285F4?style=for-the-badge&logo=google-voice&logoColor=white" alt="Contact Kashyap Patel" /></a>
 </p>
 
----
+<img width="2000rem" src="https://raw.githubusercontent.com/SamirPaulb/SamirPaulb/main/assets/rainbow-superthin.webp"><br>
 
 # <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"><b> Skills</b>
 <table align="center">
@@ -161,7 +164,8 @@
 </table>
 
 
----
+<img width="2000rem" src="https://raw.githubusercontent.com/SamirPaulb/SamirPaulb/main/assets/rainbow-superthin.webp"><br>
+
 
 <!-- AI & ML Projects Showcase -->
 <h2 align="center">🔬 AI & ML Innovations</h2>
@@ -202,6 +206,9 @@
   </table>
 </div>
 
+
+<img width="2000rem" src="https://raw.githubusercontent.com/SamirPaulb/SamirPaulb/main/assets/rainbow-superthin.webp"><br>
+
 <!-- Skill Progression -->
 <h2 align="center">💻 Skill Progression</h2>
 <div align="center">
@@ -225,6 +232,8 @@
   </table>
 </div>
 
+<img width="2000rem" src="https://raw.githubusercontent.com/SamirPaulb/SamirPaulb/main/assets/rainbow-superthin.webp"><br>
+
 <!-- GitHub Stats & Activity -->
 <h2 align="center">📊 GitHub Metrics</h2>
 <div align="center">
@@ -232,16 +241,52 @@
   <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DeAtHfIrE26&layout=compact&hide_border=true&title_color=00ffff&text_color=00ffff&bg_color=0d1117" alt="Most Used Languages" />
 </div>
 
+<img width="2000rem" src="https://raw.githubusercontent.com/SamirPaulb/SamirPaulb/main/assets/rainbow-superthin.webp"><br>
+
+
 <!-- GitHub Streak Stats -->
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=DeAtHfIrE26&theme=tokyonight&hide_border=false" alt="GitHub Streak" />
 </div>
 
-<!-- Coding Profiles -->
-<h2 align="center">👨‍💻 Coding Profiles</h2>
-<div align="center">
-  <a href="https://leetcode.com/u/Kashyap_patel26/" target="_blank">
+
+<img width="2000rem" src="https://raw.githubusercontent.com/SamirPaulb/SamirPaulb/main/assets/rainbow-superthin.webp"><br>
+# 👨‍💻 Kashyap Patel's LeetCode Journey
+
+![LeetCode Stats](https://leetcard.jacoblin.cool/Kashyap_patel26?theme=light&font=Baloo&ext=heatmap)
+
+## 🏆 LeetCode Achievements
+
+<!-- LEETCODE_STATS:START -->
+<!-- This section will be automatically updated by GitHub Actions -->
+<!-- LEETCODE_STATS:END -->
+
+## 🧠 Problem Solving Progress
+
+<!-- LEETCODE_PROBLEMS:START -->
+<!-- This section will be automatically updated by GitHub Actions -->
+<!-- LEETCODE_PROBLEMS:END -->
+
+## 🔥 Recent Submissions
+
+<!-- LEETCODE_RECENT:START -->
+<!-- This section will be automatically updated by GitHub Actions -->
+<!-- LEETCODE_RECENT:END -->
+
+## 📊 Submission Calendar
+
+<!-- LEETCODE_CALENDAR:START -->
+<!-- This section will be automatically updated by GitHub Actions -->
+<!-- LEETCODE_CALENDAR:END -->
+
+---
+
+<p align="center">
+  <a href="https://leetcode.com/Kashyap_patel26/" target="_blank">
     <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black" alt="LeetCode" />
   </a>
-  <a href="https://codeforces.com/profile/YourCodeforcesHandle" target="_blank">
-    <img src="https://img.shields.io/badge/Codeforces
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=YourGitHubUsername&style=flat-square&color=blue" alt="Profile Views Counter"/>
+</p>
