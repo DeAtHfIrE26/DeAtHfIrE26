@@ -17,7 +17,7 @@
 # 💫 About Me:
 ### AI Innovator 🤖 | Cloud Architect ☁️ | Game Developer 🎮 |
 
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Globe%20Showing%20Asia-Australia.png" alt="Globe Showing Asia-Australia" width="25" align="center" /> Open Source Contributor from **India** 🇮🇳
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Globe%20Showing%20Asia-Australia.png" alt="Globe Showing Asia-Australia" width="25" align="center" /> Software Engineer from **India** 🇮🇳
 - <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Graduation%20Cap.png" alt="Graduation Cap" width="25" align="center" /> AI Enthusiast and Cloud Architecture Specialist
 - <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="25" align="center" /> Currently working on Advanced ML and Deep Learning Projects
 - <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Star.png" alt="Star" width="25" align="center" /> Exploring Quantum Computing and Edge AI technologies
@@ -40,6 +40,7 @@
 <img width="2000rem" src="https://raw.githubusercontent.com/SamirPaulb/SamirPaulb/main/assets/rainbow-superthin.webp"><br>
 
 # <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"><b> Skills</b>
+
 <table align="center">
   <tr>
     <td align="center" width="96">
@@ -72,96 +73,128 @@
     </td>
   </tr>
   <tr>
-<table align="center">
+    <td align="center" width="96">
+      <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="TensorFlow" width="48" height="48"/>
+      <br>TensorFlow
+    </td>
+    <td align="center" width="96">
+      <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="PyTorch" width="48" height="48"/>
+      <br>PyTorch
+    </td>
+    <td align="center" width="96">
+      <img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg" alt="React" width="48" height="48"/>
+      <br>React
+    </td>
+    <td align="center" width="96">
+      <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg" alt="Node.js" width="48" height="48"/>
+      <br>Node.js
+    </td>
+    <td align="center" width="96">
+      <img src="https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg" alt="MongoDB" width="48" height="48"/>
+      <br>MongoDB
+    </td>
+    <td align="center" width="96">
+      <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="GCP" width="48" height="48"/>
+      <br>Google Cloud
+    </td>
+    <td align="center" width="96">
+      <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="Firebase" width="48" height="48"/>
+      <br>Firebase
+    </td>
+  </tr>
   <tr>
     <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/leetcode-icon.svg" alt="LeetCode" width="65" height="65" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode" width="48" height="48">
       <br>LeetCode
     </td>
     <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/codeforces-icon.svg" alt="Codeforces" width="65" height="65" />
+      <img src="https://cdn.iconscout.com/icon/free/png-512/free-code-forces-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-vol-2-pack-logos-icons-2944796.png?f=webp&w=512" alt="Codeforces" width="48" height="48">
       <br>Codeforces
     </td>
+<td align="center" width="96">
+  <img src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg" alt="LinkedIn" width="48" height="48"/>
+  <br>LinkedIn
+</td>
     <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/linkedin-icon.svg" alt="LinkedIn" width="65" height="65" />
-      <br>LinkedIn
+      <img src="https://seeklogo.com/images/O/open-ai-logo-8B9BFEDC26-seeklogo.com.png" width="48" height="48">
+      <br>ChatGPT
     </td>
     <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/chatgpt-icon.svg" alt="ChatGPT" width="65" height="65" />
-      <br>ChatGPT (OpenAI)
-    </td>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/claudeai-icon.svg" alt="Claude AI" width="65" height="65" />
+      <img src="https://10web.io/wp-content/uploads/2024/07/Claude.png" alt="Claude AI" width="48" height="48">
       <br>Claude AI
     </td>
+<td align="center" width="96">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" alt="SQL" width="48" height="48">
+  <br>SQL
+</td>
     <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/blackbox-icon.svg" alt="BlackBox" width="65" height="65" />
-      <br>BlackBox
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" alt="AWS Services" width="48" height="48">
+      <br>AWS Services
     </td>
   </tr>
   <tr>
     <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/gymnasium-icon.svg" alt="Gymnasium" width="65" height="65" />
-      <br>Gymnasium
-    </td>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/sql-icon.svg" alt="SQL" width="65" height="65" />
-      <br>SQL
-    </td>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/aws-icon.svg" alt="AWS Services" width="65" height="65" />
-      <br>AWS Services
-    </td>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/deepface-icon.svg" alt="DeepFace" width="65" height="65" />
+      <img src="https://pypi-camo.freetls.fastly.net/de66dd808c5fb44ea531fb78fc56ddfb2e0505bc/68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f736572656e67696c2f64656570666163652f6d61737465722f69636f6e2f64656570666163652d69636f6e2e706e67" alt="DeepFace" width="48" height="48">
       <br>DeepFace
     </td>
     <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/websockets-icon.svg" alt="WebSockets" width="65" height="65" />
+      <img src="https://cdn.prod.website-files.com/64f2fa44b0818c378b17052e/66205c6f3b1222899c6e1a48_65cfe3a467c1afe3217389ea_BlackBox.png" alt="BlackBox" width="48" height="48">
+      <br>BlackBox
+    </td>
+    <td align="center" width="96">
+      <img src="https://w7.pngwing.com/pngs/667/16/png-transparent-websocket-hd-logo-thumbnail.png" alt="WebSockets" width="48" height="48">
       <br>WebSockets
     </td>
     <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/imagineai-icon.svg" alt="Imagine AI" width="65" height="65" />
+      <img src="https://play-lh.googleusercontent.com/mQFp55qQVvnODn7jd_uiTqkX5lckKzewZMVLRMsgD24EMhRCactLwD1ouzFxmx5M2VQ=w480-h960" alt="Imagine AI" width="48" height="48">
       <br>Imagine AI
     </td>
-  </tr>
-  <tr>
     <td align="center" width="96">
-      <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="GCP" width="48" height="48" />
+      <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="GCP" width="48" height="48">
       <br>GCP
     </td>
     <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/deepmind-icon.svg" alt="DeepMind" width="65" height="65" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/DeepMind_new_logo.svg" alt="DeepMind" width="48" height="48">
       <br>DeepMind
     </td>
     <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/deeplearning-icon.svg" alt="DeepLearning" width="65" height="65" />
+      <img src="https://www.vlrtraining.in/wp-content/uploads/2020/10/logo-deep-learning.png" alt="DeepLearning" width="48" height="48">
       <br>DeepLearning
-    </td>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/machinelearning-icon.svg" alt="Machine Learning" width="65" height="65" />
-      <br>Machine Learning
-    </td>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/opencv-icon.svg" alt="OpenCV" width="65" height="65" />
-      <br>OpenCV
-    </td>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/yolo-icon.svg" alt="YOLO" width="65" height="65" />
-      <br>YOLO
     </td>
   </tr>
   <tr>
     <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/cisco-icon.svg" alt="Cisco Networking" width="65" height="65" />
+      <img src="https://newscrewdriver.com/wp-content/uploads/2020/05/opencv-logo.jpg?w=772" alt="OpenCV" width="48" height="48">
+      <br>OpenCV
+    </td>
+    <td align="center" width="96">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Cisco_logo_blue_2016.svg/640px-Cisco_logo_blue_2016.svg.png" alt="Cisco Networking" width="48" height="48">
       <br>Cisco Networking
     </td>
     <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/neo4j-icon.svg" alt="Neo4j" width="65" height="65" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Neo4j-logo_color.png/640px-Neo4j-logo_color.png" alt="Neo4j" width="48" height="48">
       <br>Neo4j
     </td>
+      <td align="center" width="96">
+  <img src="https://e7.pngegg.com/pngimages/52/976/png-clipart-blender-logo-desktop-computer-software-blender-3d-computer-graphics-orange.png" alt="Blender" width="48" height="48">
+      <br>Blender
+            </td>
+<td align="center" width="96">
+  <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="Unity" width="48" height="48" style="border-radius: 10px; box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.3); transform: perspective(1px) rotateX(10deg);"/>
+  <br><strong style="font-size: 14px; color: #000;">Unity</strong>
+</td>
+<td align="center" width="96">
+  <img src="https://www.vectorlogo.zone/logos/xbox/xbox-icon.svg" alt="Xbox" width="48" height="48" style="border-radius: 50%; box-shadow: 4px 4px 15px rgba(0, 255, 0, 0.4), -4px -4px 10px rgba(0, 128, 0, 0.2); transform: perspective(500px) rotateY(15deg) rotateX(5deg); transition: transform 0.3s ease;">
+  <br><strong style="font-size: 14px; color: #107C10; letter-spacing: 0.5px; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);">Xbox</strong>
+</td>
+<td align="center" width="96">
+  <img src="https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg" alt="CSS" width="48" height="48" style="border-radius: 10px; box-shadow: 6px 6px 20px rgba(0, 102, 204, 0.5), -6px -6px 15px rgba(0, 51, 153, 0.2); transform: perspective(500px) rotateY(-15deg) rotateX(-5deg); transition: transform 0.3s ease, box-shadow 0.3s ease;">
+  <br><strong style="font-size: 14px; color: #1572B6; letter-spacing: 0.5px; text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);">CSS</strong>
+</td>
+
   </tr>
 </table>
+
 
 
 <img width="2000rem" src="https://raw.githubusercontent.com/SamirPaulb/SamirPaulb/main/assets/rainbow-superthin.webp"><br>
@@ -351,34 +384,88 @@
 
 <img width="2000rem" src="https://raw.githubusercontent.com/SamirPaulb/SamirPaulb/main/assets/rainbow-superthin.webp"><br>
 
-<!-- GitHub Stats & Activity -->
-<h2 align="center">📊 GitHub Metrics</h2>
-<div align="center">
-  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=DeAtHfIrE26&show_icons=true&count_private=true&hide_border=true&title_color=00ffff&icon_color=00ffff&text_color=c9d1d9&bg_color=0d1117" alt="DeAtHfIrE26's GitHub Stats" /> 
-  <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DeAtHfIrE26&layout=compact&hide_border=true&title_color=00ffff&text_color=00ffff&bg_color=0d1117" alt="Most Used Languages" />
-</div>
 
-<img width="2000rem" src="https://raw.githubusercontent.com/SamirPaulb/SamirPaulb/main/assets/rainbow-superthin.webp"><br>
-
-
-<!-- GitHub Streak Stats -->
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=DeAtHfIrE26&theme=tokyonight&hide_border=false" alt="GitHub Streak" />
-</div>
-
-
-<img width="2000rem" src="https://raw.githubusercontent.com/SamirPaulb/SamirPaulb/main/assets/rainbow-superthin.webp"><br>
 # 👨‍💻 Kashyap Patel's LeetCode Journey
+📈 LeetCode Journey in Stats:
+<p align="center"> <img src="https://leetcard.jacoblin.cool/Kashyap_patel26?theme=unicorn&font=Karma&ext=contest" alt="LeetCode Contest Stats" /> </p>
 
-![LeetCode Stats](https://leetcard.jacoblin.cool/Kashyap_patel26?theme=light&font=Baloo&ext=heatmap)
+📅 Regularly participating in LeetCode Contests to test my skills and stay ahead of the competition. Every problem solved is a step toward becoming a stronger problem-solver. 💡
+
+🛠️ Tech Stack & Tools I Use for Problem Solving:
+<p align="center"> <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" /> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" /> <img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code" /> <img src="https://img.shields.io/badge/Git-GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white" alt="GitHub" /> <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="Google Cloud" /> </p>
 
 
-<p align="center">
-  <a href="https://leetcode.com/Kashyap_patel26/" target="_blank">
-    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black" alt="LeetCode" />
-  </a>
-</p>
+<img width="2000rem" src="https://raw.githubusercontent.com/SamirPaulb/SamirPaulb/main/assets/rainbow-superthin.webp"><br>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=YourGitHubUsername&style=flat-square&color=blue" alt="Profile Views Counter"/>
-</p>
+
+## 🛠️ Languages and Tools
+
+<div align="center">
+  <img src="https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript" />
+  <img src="https://img.shields.io/badge/-Python-black?style=flat-square&logo=Python" />
+  <img src="https://img.shields.io/badge/-React-black?style=flat-square&logo=react" />
+  <img src="https://img.shields.io/badge/-Node.js-black?style=flat-square&logo=Node.js" />
+  <img src="https://img.shields.io/badge/-HTML5-black?style=flat-square&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/-CSS3-black?style=flat-square&logo=css3" />
+  <img src="https://img.shields.io/badge/-Git-black?style=flat-square&logo=git" />
+  <img src="https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github" />
+</div>
+
+
+<img width="2000rem" src="https://raw.githubusercontent.com/SamirPaulb/SamirPaulb/main/assets/rainbow-superthin.webp"><br>
+
+## 📊 GitHub Stats
+
+<div align="center">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=DeAtHfIrE26&show_icons=true&theme=tokyonight" />
+  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=DeAtHfIrE26&theme=tokyonight" />
+</div>
+
+
+<img width="2000rem" src="https://raw.githubusercontent.com/SamirPaulb/SamirPaulb/main/assets/rainbow-superthin.webp"><br>
+
+## 🏆 GitHub Trophies
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=DeAtHfIrE26&theme=nord&column=7" />
+</div>
+
+
+<img width="2000rem" src="https://raw.githubusercontent.com/SamirPaulb/SamirPaulb/main/assets/rainbow-superthin.webp"><br>
+
+## 📈 Contribution Graph
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=DeAtHfIrE26&theme=react-dark&hide_border=true" width="100%"/>
+
+
+<img width="2000rem" src="https://raw.githubusercontent.com/SamirPaulb/SamirPaulb/main/assets/rainbow-superthin.webp"><br>
+
+## 🏆 GitHub Profile Trophy
+
+<img width="100%" src="https://github-profile-trophy.vercel.app/?username=DeAtHfIrE26&theme=radical&no-frame=true&no-bg=true&margin-w=4">
+
+
+<img width="2000rem" src="https://raw.githubusercontent.com/SamirPaulb/SamirPaulb/main/assets/rainbow-superthin.webp"><br>
+
+## 🔝 Most Used Languages
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DeAtHfIrE26&theme=tokyonight&layout=compact&hide_border=true" />
+</div>
+
+
+<img width="2000rem" src="https://raw.githubusercontent.com/SamirPaulb/SamirPaulb/main/assets/rainbow-superthin.webp"><br>
+
+## 🌟 Inspirational Quote of the Day
+
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2000&pause=1000&color=36BCF7FF&center=true&vCenter=true&multiline=true&width=600&height=100&lines=DYNAMIC_QUOTE" alt="Inspirational Quote" />
+</div>
+
+
+<h2 align="center">🌟 Thank you for visiting my GitHub profile! 🌟</h2>
+<p align="center">Feel free to explore my repositories and don't hesitate to reach out for collaborations or just a friendly chat about tech!</p>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/DeAtHfIrE26/DeAtHfIrE26/main/assets/wave.gif" width="100%" alt="Wave Animation">
+</div>
