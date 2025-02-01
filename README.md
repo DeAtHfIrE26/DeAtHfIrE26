@@ -121,8 +121,8 @@
   <br>LinkedIn
 </td>
     <td align="center" width="96">
-      <img src="https://seeklogo.com/images/O/open-ai-logo-8B9BFEDC26-seeklogo.com.png" width="48" height="48">
-      <br>ChatGPT
+      <img src="https://img.icons8.com/?size=100&id=TlnNBAQWZ6Vv&format=png&color=000000">
+      <br>OpenAI
     </td>
     <td align="center" width="96">
       <img src="https://10web.io/wp-content/uploads/2024/07/Claude.png" alt="Claude AI" width="48" height="48">
