@@ -47,156 +47,291 @@
 # <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"><b> Skills</b>
 
 <table align="center">
+  <!-- Full Stack Development -->
+  <tr>
+    <th colspan="7" align="center" style="font-size: 18px; padding: 12px; background: linear-gradient(45deg, #2c3e50, #3498db); color: white; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+      🚀 Full Stack Development
+    </th>
+  </tr>
   <tr>
     <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="65" height="65" />
-      <br>Python
+      <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="65" height="65" style="transform: perspective(500px) rotateY(15deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>JavaScript</strong>
     </td>
     <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="65" height="65" />
-      <br>JavaScript
+      <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="65" height="65" style="transform: perspective(500px) rotateY(-15deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>Python</strong>
     </td>
     <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/cpp-icon.svg" alt="C++" width="65" height="65" />
-      <br>C++
+      <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="65" height="65" style="transform: perspective(500px) rotateX(10deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>React</strong>
     </td>
     <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/aws-icon.svg" alt="AWS" width="65" height="65" />
-      <br>AWS
+      <img src="https://www.vectorlogo.zone/logos/angular/angular-icon.svg" alt="Angular" width="65" height="65" style="transform: perspective(500px) rotateX(-10deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>Angular</strong>
     </td>
     <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="GitHub" width="65" height="65" />
-      <br>GitHub
+      <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg" alt="Node.js" width="65" height="65" style="transform: perspective(500px) rotateY(15deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>Node.js</strong>
     </td>
     <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" width="65" height="65" />
-      <br>Docker
+      <img src="https://techstack-generator.vercel.app/java-icon.svg" alt="Java" width="65" height="65" style="transform: perspective(500px) rotateY(-15deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>Java</strong>
     </td>
     <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" alt="Kubernetes" width="65" height="65" />
-      <br>Kubernetes
+      <img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg" alt="HTML5" width="65" height="65" style="transform: perspective(500px) rotateX(5deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>HTML5</strong>
     </td>
   </tr>
   <tr>
     <td align="center" width="96">
-      <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="TensorFlow" width="48" height="48"/>
-      <br>TensorFlow
+      <img src="https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg" alt="CSS" width="65" height="65" style="transform: perspective(500px) rotateY(10deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>CSS</strong>
     </td>
     <td align="center" width="96">
-      <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="PyTorch" width="48" height="48"/>
-      <br>PyTorch
+      <img src="https://www.vectorlogo.zone/logos/wordpress/wordpress-icon.svg" alt="WordPress" width="65" height="65" style="transform: perspective(500px) rotateY(-10deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>WordPress</strong>
     </td>
     <td align="center" width="96">
-      <img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg" alt="React" width="48" height="48"/>
-      <br>React
+      <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Flask" width="65" height="65" style="transform: perspective(500px) rotateX(10deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>Flask</strong>
     </td>
     <td align="center" width="96">
-      <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg" alt="Node.js" width="48" height="48"/>
-      <br>Node.js
+      <img src="https://techstack-generator.vercel.app/cpp-icon.svg" alt="C++" width="65" height="65" style="transform: perspective(500px) rotateX(-10deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>C++</strong>
     </td>
     <td align="center" width="96">
-      <img src="https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg" alt="MongoDB" width="48" height="48"/>
-      <br>MongoDB
+      <img src="https://www.vectorlogo.zone/logos/dotnet/dotnet-icon.svg" alt="C#" width="65" height="65" style="transform: perspective(500px) rotateY(15deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>C#</strong>
     </td>
     <td align="center" width="96">
-      <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="GCP" width="48" height="48"/>
-      <br>Google Cloud
+      <img src="https://techstack-generator.vercel.app/restapi-icon.svg" alt="RESTful APIs" width="65" height="65" style="transform: perspective(500px) rotateY(-15deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>RESTful APIs</strong>
     </td>
     <td align="center" width="96">
-      <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="Firebase" width="48" height="48"/>
-      <br>Firebase
+      <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="65" height="65" style="transform: perspective(500px) rotateX(5deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>Git</strong>
     </td>
   </tr>
-  <tr>
-    <td align="center" width="96">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode" width="48" height="48">
-      <br>LeetCode
-    </td>
-    <td align="center" width="96">
-      <img src="https://cdn.iconscout.com/icon/free/png-512/free-code-forces-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-vol-2-pack-logos-icons-2944796.png?f=webp&w=512" alt="Codeforces" width="48" height="48">
-      <br>Codeforces
-    </td>
-<td align="center" width="96">
-  <img src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg" alt="LinkedIn" width="48" height="48"/>
-  <br>LinkedIn
-</td>
-    <td align="center" width="96">
-      <img src="https://img.icons8.com/?size=100&id=TlnNBAQWZ6Vv&format=png&color=000000">
-      <br>OpenAI
-    </td>
-    <td align="center" width="96">
-      <img src="https://10web.io/wp-content/uploads/2024/07/Claude.png" alt="Claude AI" width="48" height="48">
-      <br>Claude AI
-    </td>
-<td align="center" width="96">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" alt="SQL" width="48" height="48">
-  <br>SQL
-</td>
-    <td align="center" width="96">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" alt="AWS Services" width="48" height="48">
-      <br>AWS Services
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="96">
-      <img src="https://pypi-camo.freetls.fastly.net/de66dd808c5fb44ea531fb78fc56ddfb2e0505bc/68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f736572656e67696c2f64656570666163652f6d61737465722f69636f6e2f64656570666163652d69636f6e2e706e67" alt="DeepFace" width="48" height="48">
-      <br>DeepFace
-    </td>
-    <td align="center" width="96">
-      <img src="https://cdn.prod.website-files.com/64f2fa44b0818c378b17052e/66205c6f3b1222899c6e1a48_65cfe3a467c1afe3217389ea_BlackBox.png" alt="BlackBox" width="48" height="48">
-      <br>BlackBox
-    </td>
-    <td align="center" width="96">
-      <img src="https://w7.pngwing.com/pngs/667/16/png-transparent-websocket-hd-logo-thumbnail.png" alt="WebSockets" width="48" height="48">
-      <br>WebSockets
-    </td>
-    <td align="center" width="96">
-      <img src="https://play-lh.googleusercontent.com/mQFp55qQVvnODn7jd_uiTqkX5lckKzewZMVLRMsgD24EMhRCactLwD1ouzFxmx5M2VQ=w480-h960" alt="Imagine AI" width="48" height="48">
-      <br>Imagine AI
-    </td>
-    <td align="center" width="96">
-      <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="GCP" width="48" height="48">
-      <br>GCP
-    </td>
-    <td align="center" width="96">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/DeepMind_new_logo.svg" alt="DeepMind" width="48" height="48">
-      <br>DeepMind
-    </td>
-    <td align="center" width="96">
-      <img src="https://www.vlrtraining.in/wp-content/uploads/2020/10/logo-deep-learning.png" alt="DeepLearning" width="48" height="48">
-      <br>DeepLearning
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="96">
-      <img src="https://newscrewdriver.com/wp-content/uploads/2020/05/opencv-logo.jpg?w=772" alt="OpenCV" width="48" height="48">
-      <br>OpenCV
-    </td>
-    <td align="center" width="96">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Cisco_logo_blue_2016.svg/640px-Cisco_logo_blue_2016.svg.png" alt="Cisco Networking" width="48" height="48">
-      <br>Cisco Networking
-    </td>
-    <td align="center" width="96">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Neo4j-logo_color.png/640px-Neo4j-logo_color.png" alt="Neo4j" width="48" height="48">
-      <br>Neo4j
-    </td>
-      <td align="center" width="96">
-  <img src="https://e7.pngegg.com/pngimages/52/976/png-clipart-blender-logo-desktop-computer-software-blender-3d-computer-graphics-orange.png" alt="Blender" width="48" height="48">
-      <br>Blender
-            </td>
-<td align="center" width="96">
-  <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="Unity" width="48" height="48" style="border-radius: 10px; box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.3); transform: perspective(1px) rotateX(10deg);"/>
-  <br><strong style="font-size: 14px; color: #000;">Unity</strong>
-</td>
-<td align="center" width="96">
-  <img src="https://www.vectorlogo.zone/logos/xbox/xbox-icon.svg" alt="Xbox" width="48" height="48" style="border-radius: 50%; box-shadow: 4px 4px 15px rgba(0, 255, 0, 0.4), -4px -4px 10px rgba(0, 128, 0, 0.2); transform: perspective(500px) rotateY(15deg) rotateX(5deg); transition: transform 0.3s ease;">
-  <br><strong style="font-size: 14px; color: #107C10; letter-spacing: 0.5px; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);">Xbox</strong>
-</td>
-<td align="center" width="96">
-  <img src="https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg" alt="CSS" width="48" height="48" style="border-radius: 10px; box-shadow: 6px 6px 20px rgba(0, 102, 204, 0.5), -6px -6px 15px rgba(0, 51, 153, 0.2); transform: perspective(500px) rotateY(-15deg) rotateX(-5deg); transition: transform 0.3s ease, box-shadow 0.3s ease;">
-  <br><strong style="font-size: 14px; color: #1572B6; letter-spacing: 0.5px; text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);">CSS</strong>
-</td>
 
+
+  <!-- Cloud & DevOps -->
+  <tr>
+    <th colspan="7" align="center" style="font-size: 18px; padding: 12px; background: linear-gradient(45deg, #2980b9, #2ecc71); color: white; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+      ☁️ Cloud & DevOps
+    </th>
+  </tr>
+  <tr>
+    <td align="center" width="96">
+      <img src="https://techstack-generator.vercel.app/aws-icon.svg" alt="AWS" width="65" height="65" style="transform: perspective(500px) rotateY(15deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>AWS</strong>
+    </td>
+    <td align="center" width="96">
+      <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="GCP" width="65" height="65" style="transform: perspective(500px) rotateY(-15deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>GCP</strong>
+    </td>
+    <td align="center" width="96">
+      <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="Azure" width="65" height="65" style="transform: perspective(500px) rotateX(10deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>Azure</strong>
+    </td>
+    <td align="center" width="96">
+      <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" width="65" height="65" style="transform: perspective(500px) rotateX(-10deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>Docker</strong>
+    </td>
+    <td align="center" width="96">
+      <img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" alt="Kubernetes" width="65" height="65" style="transform: perspective(500px) rotateY(15deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>Kubernetes</strong>
+    </td>
+    <td align="center" width="96">
+      <img src="https://www.vectorlogo.zone/logos/terraformio/terraformio-icon.svg" alt="Terraform" width="65" height="65" style="transform: perspective(500px) rotateY(-15deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>Terraform</strong>
+    </td>
+    <td align="center" width="96">
+      <img src="https://www.vectorlogo.zone/logos/ansible/ansible-icon.svg" alt="Ansible" width="65" height="65" style="transform: perspective(500px) rotateX(5deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>Ansible</strong>
+    </td>
+  </tr>
+
+  <!-- AI/ML & Data Science -->
+  <tr>
+    <th colspan="7" align="center" style="font-size: 18px; padding: 12px; background: linear-gradient(45deg, #8e44ad, #e74c3c); color: white; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+      🤖 AI/ML & Data Science
+    </th>
+  </tr>
+  <tr>
+    <td align="center" width="96">
+      <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="TensorFlow" width="65" height="65" style="transform: perspective(500px) rotateY(15deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>TensorFlow</strong>
+    </td>
+    <td align="center" width="96">
+      <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="PyTorch" width="65" height="65" style="transform: perspective(500px) rotateY(-15deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>PyTorch</strong>
+    </td>
+    <td align="center" width="96">
+      <img src="https://huggingface.co/front/assets/huggingface_logo.svg" alt="Hugging Face" width="65" height="65" style="transform: perspective(500px) rotateX(10deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>Hugging Face</strong>
+    </td>
+    <td align="center" width="96">
+      <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="OpenCV" width="65" height="65" style="transform: perspective(500px) rotateX(-10deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>OpenCV</strong>
+    </td>
+    <td align="center" width="96">
+      <img src="https://img.icons8.com/?size=100&id=TlnNBAQWZ6Vv&format=png&color=000000" alt="OpenAI" width="65" height="65" style="transform: perspective(500px) rotateY(15deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>OpenAI</strong>
+    </td>
+    <td align="center" width="96">
+      <img src="https://pypi-camo.freetls.fastly.net/de66dd808c5fb44ea531fb78fc56ddfb2e0505bc/68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f736572656e67696c2f64656570666163652f6d61737465722f69636f6e2f64656570666163652d69636f6e2e706e67" alt="DeepFace" width="65" height="65" style="transform: perspective(500px) rotateY(-15deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>DeepFace</strong>
+    </td>
+    <td align="center" width="96">
+      <img src="https://www.vectorlogo.zone/logos/neo4j/neo4j-icon.svg" alt="Neo4j" width="65" height="65" style="transform: perspective(500px) rotateX(5deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>Neo4j</strong>
+    </td>
+  </tr>
+
+  <!-- Game & Graphics Development -->
+  <tr>
+    <th colspan="7" align="center" style="font-size: 18px; padding: 12px; background: linear-gradient(45deg, #e67e22, #e74c3c); color: white; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+      🎮 Game & Graphics
+    </th>
+  </tr>
+  <tr>
+    <td align="center" width="96">
+      <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="Unity" width="65" height="65" style="transform: perspective(500px) rotateY(15deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>Unity</strong>
+    </td>
+    <td align="center" width="96">
+      <img src="https://cdn.creazilla.com/icons/3234836/unreal-engine-icon-md.png" alt="Unreal Engine" width="65" height="65" style="transform: perspective(500px) rotateY(-15deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>Unreal Engine</strong>
+    </td>
+    <td align="center" width="96">
+      <img src="https://www.vectorlogo.zone/logos/blender/blender-icon.svg" alt="Blender" width="65" height="65" style="transform: perspective(500px) rotateX(10deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>Blender</strong>
+    </td>
+    <td align="center" width="96">
+      <img src="https://techcrunch.com/wp-content/uploads/2014/08/opengl_color_1500_dec09.png?resize=668,309" alt="OpenGL" width="65" height="65" style="transform: perspective(500px) rotateX(-10deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>OpenGL</strong>
+    </td>
+    <td align="center" width="96">
+      <br><strong>Cocos2d</strong>
+    </td>
+    <td align="center" width="96">
+      <br><strong>Maya</strong>
+    </td>
+    <td align="center" width="96">
+      <img src="https://www.vectorlogo.zone/logos/godotengine/godotengine-icon.svg" alt="Godot" width="65" height="65" style="transform: perspective(500px) rotateX(5deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>Godot</strong>
+    </td>
+  </tr>
+
+  <!-- Databases & Networking -->
+  <tr>
+    <th colspan="7" align="center" style="font-size: 18px; padding: 12px; background: linear-gradient(45deg, #16a085, #1abc9c); color: white; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+      💾 Databases & Networking
+    </th>
+  </tr>
+  <tr>
+    <td align="center" width="96">
+      <img src="https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg" alt="MongoDB" width="65" height="65" style="transform: perspective(500px) rotateY(15deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>MongoDB</strong>
+    </td>
+    <td align="center" width="96">
+      <img src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg" alt="PostgreSQL" width="65" height="65" style="transform: perspective(500px) rotateY(-15deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>PostgreSQL</strong>
+    </td>
+    <td align="center" width="96">
+      <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="Firebase" width="65" height="65" style="transform: perspective(500px) rotateX(10deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>Firebase</strong>
+    </td>
+    <td align="center" width="96">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" alt="SQL" width="65" height="65" style="transform: perspective(500px) rotateX(-10deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>SQL</strong>
+    </td>
+    <td align="center" width="96">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Cisco_logo_blue_2016.svg/640px-Cisco_logo_blue_2016.svg.png" alt="Cisco" width="65" height="65" style="transform: perspective(500px) rotateY(15deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>Cisco</strong>
+    </td>
+    <td align="center" width="96">
+      <img src="https://w7.pngwing.com/pngs/667/16/png-transparent-websocket-hd-logo-thumbnail.png" alt="WebSockets" width="65" height="65" style="transform: perspective(500px) rotateY(-15deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>WebSockets</strong>
+    </td>
+    <td align="center" width="96">
+      <img src="https://www.vectorlogo.zone/logos/apache_spark/apache_spark-icon.svg" alt="Apache Spark" width="65" height="65" style="transform: perspective(500px) rotateX(5deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>Apache Spark</strong>
+    </td>
+  </tr>
+
+  <!-- Tools & Collaboration -->
+  <tr>
+    <th colspan="7" align="center" style="font-size: 18px; padding: 12px; background: linear-gradient(45deg, #9b59b6, #8e44ad); color: white; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+      ⚙️ Tools & Collaboration
+    </th>
+  </tr>
+  <tr>
+    <td align="center" width="96">
+      <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="GitHub" width="65" height="65" style="transform: perspective(500px) rotateY(15deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>GitHub</strong>
+    </td>
+    <td align="center" width="96">
+      <img src="https://www.vectorlogo.zone/logos/atlassian_jira/atlassian_jira-icon.svg" alt="JIRA" width="65" height="65" style="transform: perspective(500px) rotateY(-15deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>JIRA</strong>
+    </td>
+    <td align="center" width="96">
+      <img src="https://www.vectorlogo.zone/logos/grafana/grafana-icon.svg" alt="Grafana" width="65" height="65" style="transform: perspective(500px) rotateX(10deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>Grafana</strong>
+    </td>
+    <td align="center" width="96">
+      <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="Figma" width="65" height="65" style="transform: perspective(500px) rotateX(-10deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>Figma</strong>
+    </td>
+    <td align="center" width="96">
+      <img src="https://cdn.iconscout.com/icon/free/png-512/free-postman-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-vol-5-pack-logos-icons-3030217.png?f=webp&w=512" alt="Postman" width="65" height="65" style="transform: perspective(500px) rotateY(15deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>Postman</strong>
+    </td>
+    <td align="center" width="96">
+      <img src="https://www.vectorlogo.zone/logos/slack/slack-icon.svg" alt="Slack" width="65" height="65" style="transform: perspective(500px) rotateY(-15deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>Slack</strong>
+    </td>
+    <td align="center" width="96">
+      <img src="https://www.vectorlogo.zone/logos/trello/trello-icon.svg" alt="Trello" width="65" height="65" style="transform: perspective(500px) rotateX(5deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>Trello</strong>
+    </td>
+  </tr>
+    <!-- Competitive Programming -->
+  <tr>
+    <th colspan="7" align="center" style="font-size: 18px; padding: 12px; background: linear-gradient(45deg, #16a085, #1abc9c); color: white; border-radius: 8px;">
+      Competitive Programming
+    </th>
+  </tr>
+  <tr>
+    <td align="center" width="96">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode" width="65" height="65" style="transform: perspective(500px) rotateY(15deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>LeetCode</strong>
+    </td>
+    <td align="center" width="96">
+      <img src="https://cdn.iconscout.com/icon/free/png-512/free-code-forces-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-vol-2-pack-logos-icons-2944796.png?f=webp&w=512" alt="Codeforces" width="65" height="65" style="transform: perspective(500px) rotateY(-15deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>Codeforces</strong>
+    </td>
+    <td align="center" width="96">
+      <img src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg" alt="LinkedIn" width="65" height="65" style="transform: perspective(500px) rotateX(10deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>LinkedIn</strong>
+    </td>
+    <td align="center" width="96">
+      <img src="https://img.icons8.com/?size=100&id=TlnNBAQWZ6Vv&format=png&color=000000" alt="OpenAI" width="65" height="65" style="transform: perspective(500px) rotateX(-10deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>OpenAI</strong>
+    </td>
+    <td align="center" width="96">
+      <img src="https://10web.io/wp-content/uploads/2024/07/Claude.png" alt="Claude AI" width="65" height="65" style="transform: perspective(500px) rotateY(15deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>Claude AI</strong>
+    </td>
+    <td align="center" width="96">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" alt="SQL" width="65" height="65" style="transform: perspective(500px) rotateY(-15deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>SQL</strong>
+    </td>
+    <td align="center" width="96">
+      <img src="https://www.vectorlogo.zone/logos/linux/linux-icon.svg" alt="Linux" width="65" height="65" style="transform: perspective(500px) rotateX(5deg); box-shadow: 4px 4px 12px rgba(0,0,0,0.3); border-radius: 10px;"/>
+      <br><strong>Linux</strong>
+    </td>
   </tr>
 </table>
 
