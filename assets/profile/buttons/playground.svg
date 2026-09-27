@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 156 42" width="156" height="42" role="img" aria-label="Playground">
+<title>Playground</title>
+<defs><linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".35"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><clipPath id="cl"><rect width="156" height="42" rx="11"/></clipPath></defs>
+<style>.shine{animation:sh 4s ease-in-out infinite}@keyframes sh{0%,60%{transform:translateX(-156px) skewX(-20deg)}100%{transform:translateX(156px) skewX(-20deg)}}@media (prefers-reduced-motion:reduce){.shine{display:none}}</style>
+<rect width="156" height="42" rx="11" fill="#0e7490"/>
+<g clip-path="url(#cl)"><rect class="shine" x="0" y="0" width="78" height="42" fill="url(#sh)"/></g>
+<g transform="translate(15 9)" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4zM4 9h16M9 9v11"/></g>
+<text x="48" y="27" fill="#fff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700">Playground</text>
+</svg>

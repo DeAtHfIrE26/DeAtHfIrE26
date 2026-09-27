@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 512" width="1200" height="512" role="img" aria-labelledby="t d">
+<title id="t">Document Intelligence Framework</title>
+<desc id="d">AI · SEARCH · FULL STACK. Upload a PDF, scan, note or audio file: people, places, dates and organisations are extracted into a knowledge graph you can search, with AI answers that cite their sources.</desc>
+<defs>
+    <clipPath id="pclip"><rect x="1" y="1" width="1198" height="510" rx="18"/></clipPath>
+    <filter id="pblur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="86"/></filter>
+    <pattern id="pdots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.2" fill="#eef1f5"/></pattern>
+    <linearGradient id="pedge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#6d28d9" stop-opacity="0"/><stop offset=".5" stop-color="#6d28d9"/><stop offset="1" stop-color="#0e7490" stop-opacity="0"/></linearGradient></defs>
+<style>
+  text{white-space:pre}
+  .in{opacity:0;animation:rise .7s cubic-bezier(.2,.8,.2,1) forwards}
+  @keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+  .pulse{animation:pulse 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+  @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.45;transform:scale(1.5)}}
+  
+    .blob{animation:drift 16s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:center}
+    .b2{animation-duration:19s;animation-direction:alternate-reverse}.b3{animation-duration:23s}
+    @keyframes drift{0%{transform:translate(0,0) scale(1)}50%{transform:translate(6%,8%) scale(1.15)}100%{transform:translate(-5%,-4%) scale(.9)}}
+    .sweep{stroke-dasharray:411 3013;animation:sweep 9s linear infinite}
+    @keyframes sweep{to{stroke-dashoffset:-3424}}.shrink{transform-box:fill-box;transform-origin:left center;transform:scaleX(var(--s));animation:shrink 1.6s cubic-bezier(.3,.7,.2,1) both}
+    @keyframes shrink{from{transform:scaleX(1)}to{transform:scaleX(var(--s))}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rm-show{opacity:1!important;transform:none!important}}
+  @media (prefers-reduced-motion:reduce){.in,.px,.bdg{opacity:1!important}.tl{stroke-dashoffset:0!important}}
+</style>
+
+    <rect x="1" y="1" width="1198" height="510" rx="18" fill="#ffffff"/>
+    
+    <g clip-path="url(#pclip)" filter="url(#pblur)" opacity="0.16">
+      <circle class="blob b1" cx="216" cy="102.4" r="264" fill="#6d28d9"/>
+      <circle class="blob b2" cx="1020" cy="179.2" r="216" fill="#0e7490"/>
+      <circle class="blob b3" cx="660" cy="537.6" r="240" fill="#6d28d9"/>
+    </g>
+    <rect x="1" y="1" width="1198" height="510" rx="18" fill="url(#pdots)" opacity="0.7"/>
+    <rect x="1" y="1" width="1198" height="510" rx="18" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
+    <rect x="1" y="1" width="1198" height="510" rx="18" fill="none" stroke="#6d28d9" stroke-width="2" stroke-linecap="round" class="sweep" opacity="0.55"/>
+    <g class="in"><text x="48" y="58" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" font-weight="700" letter-spacing="3" fill="#6d28d9">AI · SEARCH · FULL STACK</text></g>
+    <g class="in" style="animation-delay:0.20s"><rect x="1034" y="36" width="118" height="30" rx="15" fill="#047857" fill-opacity=".12" stroke="#047857" stroke-opacity=".55"/><circle class="pulse" cx="1054" cy="51" r="5" fill="#047857"/><text x="1068" y="56" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="13" font-weight="700" fill="#047857">LIVE APP</text></g>
+    <g class="in" style="animation-delay:0.10s"><text x="48" y="110" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="42" font-weight="800" letter-spacing="-1" fill="#1f2328">Document Intelligence Framework</text></g>
+    <g class="in" style="animation-delay:0.20s"><text x="48" y="150" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="19" fill="#57606a">Upload a PDF, scan, note or audio file: people, places, dates and organisations are extracted into a knowledge</text><text x="48" y="179" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="19" fill="#57606a">graph you can search, with AI answers that cite their sources.</text></g>
+    <text x="48" y="226" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="13" letter-spacing="3" fill="#57606a">MEASURED · BEFORE → AFTER</text><g class="in" style="animation-delay:0.40s">
+        <text x="48" y="274" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="17" fill="#1f2328">Process a 21 KB document</text>
+        <rect x="380" y="260" width="400" height="16" rx="8" fill="#afb8c1" fill-opacity="0.35"/>
+        <rect class="shrink" style="--s:0.0126;animation-delay:0.80s" x="380" y="260" width="400" height="16" rx="8" fill="#6d28d9"/>
+        <text x="800" y="274" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="15" fill="#57606a">230 s → <tspan fill="#1f2328" font-weight="700">2.9 s</tspan></text>
+        <text x="1152" y="274" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#6d28d9">79× faster</text>
+      </g><g class="in" style="animation-delay:0.52s">
+        <text x="48" y="318" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="17" fill="#1f2328">Live search</text>
+        <rect x="380" y="304" width="400" height="16" rx="8" fill="#afb8c1" fill-opacity="0.35"/>
+        <rect class="shrink" style="--s:0.0210;animation-delay:0.95s" x="380" y="304" width="400" height="16" rx="8" fill="#6d28d9"/>
+        <text x="800" y="318" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="15" fill="#57606a">15.7 s → <tspan fill="#1f2328" font-weight="700">0.33 s</tspan></text>
+        <text x="1152" y="318" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#6d28d9">48× faster</text>
+      </g><g class="in" style="animation-delay:0.64s">
+        <text x="48" y="362" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="17" fill="#1f2328">Embedding API calls / upload</text>
+        <rect x="380" y="348" width="400" height="16" rx="8" fill="#afb8c1" fill-opacity="0.35"/>
+        <rect class="shrink" style="--s:0.0120;animation-delay:1.10s" x="380" y="348" width="400" height="16" rx="8" fill="#6d28d9"/>
+        <text x="800" y="362" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="15" fill="#57606a">855 → <tspan fill="#1f2328" font-weight="700">2</tspan></text>
+        <text x="1152" y="362" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#6d28d9">428× fewer</text>
+      </g><g class="in" style="animation-delay:0.76s">
+        <text x="48" y="406" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="17" fill="#1f2328">SQL statements / upload</text>
+        <rect x="380" y="392" width="400" height="16" rx="8" fill="#afb8c1" fill-opacity="0.35"/>
+        <rect class="shrink" style="--s:0.0120;animation-delay:1.25s" x="380" y="392" width="400" height="16" rx="8" fill="#6d28d9"/>
+        <text x="800" y="406" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="15" fill="#57606a">15,084 → <tspan fill="#1f2328" font-weight="700">29</tspan></text>
+        <text x="1152" y="406" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#6d28d9">520× fewer</text>
+      </g>
+    <g class="in" style="animation-delay:0.90s"><g><rect x="48" y="446" width="69" height="26" rx="13" fill="#6d28d9" fill-opacity="0.07" stroke="#6d28d9" stroke-opacity="0.45"/><text x="82.5" y="463.68" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="13" font-weight="600" fill="#6d28d9">Python</text></g><g><rect x="125" y="446" width="61" height="26" rx="13" fill="#6d28d9" fill-opacity="0.07" stroke="#6d28d9" stroke-opacity="0.45"/><text x="155.5" y="463.68" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="13" font-weight="600" fill="#6d28d9">Flask</text></g><g><rect x="194" y="446" width="84" height="26" rx="13" fill="#6d28d9" fill-opacity="0.07" stroke="#6d28d9" stroke-opacity="0.45"/><text x="236" y="463.68" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="13" font-weight="600" fill="#6d28d9">pgvector</text></g><g><rect x="286" y="446" width="61" height="26" rx="13" fill="#6d28d9" fill-opacity="0.07" stroke="#6d28d9" stroke-opacity="0.45"/><text x="316.5" y="463.68" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="13" font-weight="600" fill="#6d28d9">spaCy</text></g><g><rect x="355" y="446" width="69" height="26" rx="13" fill="#6d28d9" fill-opacity="0.07" stroke="#6d28d9" stroke-opacity="0.45"/><text x="389.5" y="463.68" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="13" font-weight="600" fill="#6d28d9">OpenAI</text></g><g><rect x="432" y="446" width="92" height="26" rx="13" fill="#6d28d9" fill-opacity="0.07" stroke="#6d28d9" stroke-opacity="0.45"/><text x="478" y="463.68" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="13" font-weight="600" fill="#6d28d9">Tesseract</text></g><g><rect x="532" y="446" width="100" height="26" rx="13" fill="#6d28d9" fill-opacity="0.07" stroke="#6d28d9" stroke-opacity="0.45"/><text x="582" y="463.68" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="13" font-weight="600" fill="#6d28d9">TypeScript</text></g></g>
+</svg>

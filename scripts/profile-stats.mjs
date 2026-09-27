@@ -11,7 +11,7 @@
 
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
-import { themes } from './theme.mjs';
+import { THEMES as themes, frame } from './profile/kit.mjs';
 
 const args = process.argv.slice(2);
 const outDir = args.includes('--out') ? args[args.indexOf('--out') + 1] : 'dist';
@@ -133,7 +133,7 @@ export function card(s, t) {
   const tileSvg = tiles.map(([v, l], i) => {
     const x = P + (i % 2) * (tw + 16), y = 64 + Math.floor(i / 2) * 100;
     return `<g class="in" style="animation-delay:${0.1 + i * 0.08}s">
-      <rect x="${x}" y="${y}" width="${tw}" height="84" rx="12" fill="${t.bg}" stroke="${t.border}"/>
+      <rect x="${x}" y="${y}" width="${tw}" height="84" rx="12" fill="${t.panel2}" stroke="${t.border}"/>
       <text x="${x + 20}" y="${y + 44}" class="val">${esc(v)}</text>
       <text x="${x + 20}" y="${y + 70}" class="lbl">${esc(l)}</text>
     </g>`;
@@ -160,6 +160,8 @@ export function card(s, t) {
     return `<circle cx="${lx + 6}" cy="${ly - 5}" r="6" fill="${l.color}"/><text x="${lx + 20}" y="${ly}" class="leg">${esc(l.name)} <tspan class="pct">${l.pct.toFixed(1)}%</tspan></text>`;
   }).join('');
 
+  const f = frame(t, W, H, { id: 's' });
+  const accentSoft = t.accent + (t.name === 'dark' ? '33' : '1f');
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-labelledby="t d">
   <title id="t">GitHub activity for ${esc(login)}</title>
   <desc id="d">${fmt(s.contributions)} contributions in the last 12 months; current streak ${s.current} days; longest streak ${s.longest} days; ${s.repos} public repositories with ${s.stars} stars. Top languages across public repositories: ${s.languages.map((l) => `${l.name} ${l.pct.toFixed(1)}%`).join(', ')}.</desc>
@@ -172,18 +174,19 @@ export function card(s, t) {
     .in{opacity:0;animation:in .6s ease-out forwards}
     .spark{stroke:${t.accent};stroke-width:2.5;fill:none;stroke-linejoin:round;stroke-dasharray:2000;stroke-dashoffset:2000;animation:draw 1.8s ease-out .4s forwards}
     .bar{transform-origin:${P}px 0;transform:scaleX(0);animation:grow 1s cubic-bezier(.2,.8,.2,1) .6s forwards}
+    ${f.css}
     @keyframes in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
     @keyframes draw{to{stroke-dashoffset:0}}
     @keyframes grow{to{transform:scaleX(1)}}
     @media (prefers-reduced-motion:reduce){*{animation:none!important}.in{opacity:1}.spark{stroke-dashoffset:0}.bar{transform:none}}
   </style>
-  <defs><clipPath id="bar"><rect x="${P}" y="${by}" width="${sw}" height="12" rx="6"/></clipPath></defs>
-  <rect x="1" y="1" width="${W - 2}" height="${H - 2}" rx="16" fill="${t.panel}" stroke="${t.border}" stroke-width="2"/>
+  <defs>${f.defs}<clipPath id="bar"><rect x="${P}" y="${by}" width="${sw}" height="12" rx="6"/></clipPath></defs>
+  ${f.back}
   <text x="${P}" y="40" class="h">GITHUB ACTIVITY</text>
   <text x="${W - P}" y="40" class="h" text-anchor="end">updated ${esc(s.today)}</text>
   ${tileSvg}
   <text x="${P}" y="${sy - 10}" class="h">WEEKLY CONTRIBUTIONS</text>
-  <polygon points="${area}" fill="${t.accentSoft}" class="in" style="animation-delay:.9s"/>
+  <polygon points="${area}" fill="${accentSoft}" class="in" style="animation-delay:.9s"/>
   <polyline points="${line}" class="spark"/>
   <text x="${P}" y="${by - 14}" class="h">LANGUAGES · PUBLIC REPOS</text>
   <g clip-path="url(#bar)"><g class="bar">${segs}</g></g>

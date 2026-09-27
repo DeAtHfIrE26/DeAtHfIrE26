@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 512" width="1200" height="512" role="img" aria-labelledby="t d">
+<title id="t">RideShare Incentive Platform</title>
+<desc id="d">FULL STACK · PERFORMANCE. A production carpooling platform that pays people to share journeys. The showcase holds its app shell, a dependency-free motion system and a 72-check release-hygiene suite.</desc>
+<defs>
+    <clipPath id="pclip"><rect x="1" y="1" width="1198" height="510" rx="18"/></clipPath>
+    <filter id="pblur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="86"/></filter>
+    <pattern id="pdots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.2" fill="#1b2433"/></pattern>
+    <linearGradient id="pedge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#60a5fa" stop-opacity="0"/><stop offset=".5" stop-color="#60a5fa"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></linearGradient></defs>
+<style>
+  text{white-space:pre}
+  .in{opacity:0;animation:rise .7s cubic-bezier(.2,.8,.2,1) forwards}
+  @keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+  .pulse{animation:pulse 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+  @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.45;transform:scale(1.5)}}
+  
+    .blob{animation:drift 16s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:center}
+    .b2{animation-duration:19s;animation-direction:alternate-reverse}.b3{animation-duration:23s}
+    @keyframes drift{0%{transform:translate(0,0) scale(1)}50%{transform:translate(6%,8%) scale(1.15)}100%{transform:translate(-5%,-4%) scale(.9)}}
+    .sweep{stroke-dasharray:411 3013;animation:sweep 9s linear infinite}
+    @keyframes sweep{to{stroke-dashoffset:-3424}}.shrink{transform-box:fill-box;transform-origin:left center;transform:scaleX(var(--s));animation:shrink 1.6s cubic-bezier(.3,.7,.2,1) both}
+    @keyframes shrink{from{transform:scaleX(1)}to{transform:scaleX(var(--s))}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rm-show{opacity:1!important;transform:none!important}}
+  @media (prefers-reduced-motion:reduce){.in,.px,.bdg{opacity:1!important}.tl{stroke-dashoffset:0!important}}
+</style>
+
+    <rect x="1" y="1" width="1198" height="510" rx="18" fill="#0f1520"/>
+    
+    <g clip-path="url(#pclip)" filter="url(#pblur)" opacity="0.35">
+      <circle class="blob b1" cx="216" cy="102.4" r="264" fill="#60a5fa"/>
+      <circle class="blob b2" cx="1020" cy="179.2" r="216" fill="#22d3ee"/>
+      <circle class="blob b3" cx="660" cy="537.6" r="240" fill="#a78bfa"/>
+    </g>
+    <rect x="1" y="1" width="1198" height="510" rx="18" fill="url(#pdots)" opacity="0.9"/>
+    <rect x="1" y="1" width="1198" height="510" rx="18" fill="none" stroke="#263041" stroke-width="1.5"/>
+    <rect x="1" y="1" width="1198" height="510" rx="18" fill="none" stroke="#60a5fa" stroke-width="2" stroke-linecap="round" class="sweep" opacity="0.75"/>
+    <g class="in"><text x="48" y="58" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" font-weight="700" letter-spacing="3" fill="#60a5fa">FULL STACK · PERFORMANCE</text></g>
+    <g class="in" style="animation-delay:0.20s"><rect x="1034" y="36" width="118" height="30" rx="15" fill="#34d399" fill-opacity=".12" stroke="#34d399" stroke-opacity=".55"/><circle class="pulse" cx="1054" cy="51" r="5" fill="#34d399"/><text x="1068" y="56" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="13" font-weight="700" fill="#34d399">LIVE APP</text></g>
+    <g class="in" style="animation-delay:0.10s"><text x="48" y="110" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="42" font-weight="800" letter-spacing="-1" fill="#e6edf3">RideShare Incentive Platform</text></g>
+    <g class="in" style="animation-delay:0.20s"><text x="48" y="150" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="19" fill="#8b949e">A production carpooling platform that pays people to share journeys. The showcase holds its app shell, a</text><text x="48" y="179" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="19" fill="#8b949e">dependency-free motion system and a 72-check release-hygiene suite.</text></g>
+    <text x="48" y="226" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="13" letter-spacing="3" fill="#8b949e">MEASURED · BEFORE → AFTER</text><g class="in" style="animation-delay:0.40s">
+        <text x="48" y="274" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="17" fill="#e6edf3">Dashboard stats API</text>
+        <rect x="380" y="260" width="400" height="16" rx="8" fill="#4b5563" fill-opacity="0.25"/>
+        <rect class="shrink" style="--s:0.5060;animation-delay:0.80s" x="380" y="260" width="400" height="16" rx="8" fill="#60a5fa"/>
+        <text x="800" y="274" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="15" fill="#8b949e">828.7 ms → <tspan fill="#e6edf3" font-weight="700">419.3 ms</tspan></text>
+        <text x="1152" y="274" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#60a5fa">−49%</text>
+      </g><g class="in" style="animation-delay:0.52s">
+        <text x="48" y="318" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="17" fill="#e6edf3">Journeys list, 200k rows</text>
+        <rect x="380" y="304" width="400" height="16" rx="8" fill="#4b5563" fill-opacity="0.25"/>
+        <rect class="shrink" style="--s:0.0120;animation-delay:0.95s" x="380" y="304" width="400" height="16" rx="8" fill="#60a5fa"/>
+        <text x="800" y="318" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="15" fill="#8b949e">20.5 ms → <tspan fill="#e6edf3" font-weight="700">0.11 ms</tspan></text>
+        <text x="1152" y="318" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#60a5fa">186× faster</text>
+      </g><g class="in" style="animation-delay:0.64s">
+        <text x="48" y="362" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="17" fill="#e6edf3">Worst layout shift (CLS)</text>
+        <rect x="380" y="348" width="400" height="16" rx="8" fill="#4b5563" fill-opacity="0.25"/>
+        <rect class="shrink" style="--s:0.0395;animation-delay:1.10s" x="380" y="348" width="400" height="16" rx="8" fill="#60a5fa"/>
+        <text x="800" y="362" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="15" fill="#8b949e">0.481 → <tspan fill="#e6edf3" font-weight="700">0.019</tspan></text>
+        <text x="1152" y="362" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#60a5fa">25× lower</text>
+      </g><g class="in" style="animation-delay:0.76s">
+        <text x="48" y="406" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="17" fill="#e6edf3">Main bundle, gzipped</text>
+        <rect x="380" y="392" width="400" height="16" rx="8" fill="#4b5563" fill-opacity="0.25"/>
+        <rect class="shrink" style="--s:0.8237;animation-delay:1.25s" x="380" y="392" width="400" height="16" rx="8" fill="#60a5fa"/>
+        <text x="800" y="406" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="15" fill="#8b949e">124.2 kB → <tspan fill="#e6edf3" font-weight="700">102.3 kB</tspan></text>
+        <text x="1152" y="406" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#60a5fa">−18%</text>
+      </g>
+    <g class="in" style="animation-delay:0.90s"><g><rect x="48" y="446" width="84" height="26" rx="13" fill="#60a5fa" fill-opacity="0.1" stroke="#60a5fa" stroke-opacity="0.45"/><text x="90" y="463.68" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="13" font-weight="600" fill="#60a5fa">React 18</text></g><g><rect x="140" y="446" width="100" height="26" rx="13" fill="#60a5fa" fill-opacity="0.1" stroke="#60a5fa" stroke-opacity="0.45"/><text x="190" y="463.68" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="13" font-weight="600" fill="#60a5fa">TypeScript</text></g><g><rect x="248" y="446" width="84" height="26" rx="13" fill="#60a5fa" fill-opacity="0.1" stroke="#60a5fa" stroke-opacity="0.45"/><text x="290" y="463.68" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="13" font-weight="600" fill="#60a5fa">Tailwind</text></g><g><rect x="340" y="446" width="61" height="26" rx="13" fill="#60a5fa" fill-opacity="0.1" stroke="#60a5fa" stroke-opacity="0.45"/><text x="370.5" y="463.68" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="13" font-weight="600" fill="#60a5fa">Radix</text></g><g><rect x="409" y="446" width="100" height="26" rx="13" fill="#60a5fa" fill-opacity="0.1" stroke="#60a5fa" stroke-opacity="0.45"/><text x="459" y="463.68" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="13" font-weight="600" fill="#60a5fa">PostgreSQL</text></g><g><rect x="517" y="446" width="77" height="26" rx="13" fill="#60a5fa" fill-opacity="0.1" stroke="#60a5fa" stroke-opacity="0.45"/><text x="555.5" y="463.68" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="13" font-weight="600" fill="#60a5fa">Drizzle</text></g><g><rect x="602" y="446" width="100" height="26" rx="13" fill="#60a5fa" fill-opacity="0.1" stroke="#60a5fa" stroke-opacity="0.45"/><text x="652" y="463.68" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="13" font-weight="600" fill="#60a5fa">Playwright</text></g></g>
+</svg>
