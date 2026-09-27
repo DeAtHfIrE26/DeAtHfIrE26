@@ -1,0 +1,60 @@
+# Regenerates the animated assets the profile README loads from the `output`
+# branch: the GitHub activity card (scripts/profile-stats.mjs) and the
+# contribution snake (Platane/snk). Publishing to a separate branch keeps
+# `main` free of daily bot commits.
+name: Profile assets
+
+on:
+  schedule:
+    - cron: "17 3 * * *" # daily, 03:17 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/profile-assets.yml"
+
+permissions:
+  contents: write # push to the `output` branch
+
+concurrency:
+  group: profile-assets
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Activity card
+        env:
+          # Optional PROFILE_STATS_TOKEN (classic PAT, `read:user`) lets the card
+          # count private contributions you've chosen to show on your profile.
+          # Without it, the built-in token counts public activity only.
+          GH_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN || github.token }}
+          GH_USER: ${{ github.repository_owner }}
+        run: node scripts/profile-stats.mjs --out dist
+
+      - name: Contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-light.svg?palette=github-light&color_snake=#6d28d9
+            dist/snake-dark.svg?palette=github-dark&color_snake=#a78bfa
+
+      - name: Publish to the output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "chore: refresh profile assets"
+          jekyll: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

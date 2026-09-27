@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-labelledby="t d">
+  <title id="t">Document Intelligence</title>
+  <desc id="d">A document is scanned line by line; people, places and dates light up as they are extracted and flow out as structured JSON and tags.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0f1e"/><stop offset="0.55" stop-color="#101a36"/><stop offset="1" stop-color="#0b2a36"/>
+    </linearGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#ffffff" fill-opacity="0.06"/>
+    </pattern>
+    <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6ea8fe" stop-opacity="0"/>
+      <stop offset="0.85" stop-color="#6ea8fe" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#6ea8fe" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6ea8fe" stop-opacity="0"/><stop offset="1" stop-color="#6ea8fe" stop-opacity="0.8"/>
+    </linearGradient>
+    <clipPath id="doc-clip"><rect x="560" y="58" width="270" height="290" rx="14"/></clipPath>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+  <style>
+    text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 14px; }
+    .beam { animation: scan 6s cubic-bezier(.45,.05,.55,.95) infinite; opacity: 0; }
+    .hl1 { animation: light1 6s ease-out infinite; }
+    @keyframes light1 { 0%, 8% { opacity: 0; } 12% { opacity: 1; } 90% { opacity: 1; } 100% { opacity: 0; } }
+    .hl2 { animation: light2 6s ease-out infinite; }
+    @keyframes light2 { 0%, 17% { opacity: 0; } 21% { opacity: 1; } 90% { opacity: 1; } 100% { opacity: 0; } }
+    .hl3 { animation: light3 6s ease-out infinite; }
+    @keyframes light3 { 0%, 24% { opacity: 0; } 28% { opacity: 1; } 90% { opacity: 1; } 100% { opacity: 0; } }
+    .hl4 { animation: light4 6s ease-out infinite; }
+    @keyframes light4 { 0%, 32% { opacity: 0; } 36% { opacity: 1; } 90% { opacity: 1; } 100% { opacity: 0; } }
+    .hl5 { animation: light5 6s ease-out infinite; }
+    @keyframes light5 { 0%, 40% { opacity: 0; } 44% { opacity: 1; } 90% { opacity: 1; } 100% { opacity: 0; } }
+    .hl6 { animation: light6 6s ease-out infinite; }
+    @keyframes light6 { 0%, 47% { opacity: 0; } 51% { opacity: 1; } 90% { opacity: 1; } 100% { opacity: 0; } }
+    .json { animation: type 6s ease-out infinite; }
+    .tag { animation: chip 6s cubic-bezier(.22,1,.36,1) infinite; }
+    .particle { animation: travel 1.6s linear infinite; opacity: 0; }
+    .halo { animation: breathe 6s ease-in-out infinite; }
+    @keyframes scan { 0% { transform: translateY(-40px); opacity: 0; } 6% { opacity: 1; } 55% { transform: translateY(250px); opacity: 1; } 62%, 100% { transform: translateY(250px); opacity: 0; } }
+    @keyframes type { 0%, 40% { opacity: 0; transform: translateX(-8px); } 50%, 90% { opacity: 1; transform: none; } 100% { opacity: 0; } }
+    @keyframes chip { 0%, 58% { opacity: 0; transform: translateX(-24px) scale(.9); } 68%, 90% { opacity: 1; transform: none; } 100% { opacity: 0; } }
+    @keyframes travel { 0% { transform: translateX(0); opacity: 0; } 15% { opacity: 1; } 85% { opacity: 1; } 100% { transform: translateX(46px); opacity: 0; } }
+    @keyframes breathe { 0%, 100% { opacity: .22; } 50% { opacity: .34; } }
+    @media (prefers-reduced-motion: reduce) {
+      .beam, .particle { animation: none; opacity: 0; }
+      .hl, .json, .tag, .halo { animation: none !important; }
+    }
+  </style>
+
+  <rect width="1280" height="400" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="400" rx="24" fill="url(#dots)"/>
+  <ellipse class="halo" cx="700" cy="206" rx="200" ry="130" fill="#6ea8fe" opacity=".22" filter="url(#soft)"/>
+
+  <!-- Title -->
+  <g transform="translate(64 0)">
+    <text x="0" y="128" font-size="54" font-weight="800" fill="#f1f5ff" letter-spacing="-1.5">Document</text>
+    <text x="0" y="188" font-size="54" font-weight="800" fill="#f1f5ff" letter-spacing="-1.5">Intelligence</text>
+    <text x="0" y="232" font-size="19" fill="#a9b6cc">Turn PDFs, scans and notes into entities,</text>
+    <text x="0" y="258" font-size="19" fill="#a9b6cc">a knowledge graph and cited answers.</text>
+    <g font-size="14" font-weight="600" fill="#dbe4f5">
+      <rect x="0" y="286" width="62" height="30" rx="15" fill="#ffffff" fill-opacity="0.07"/><text x="31" y="306" text-anchor="middle">OCR</text>
+      <rect x="72" y="286" width="86" height="30" rx="15" fill="#ffffff" fill-opacity="0.07"/><text x="115" y="306" text-anchor="middle">Entities</text>
+      <rect x="168" y="286" width="72" height="30" rx="15" fill="#ffffff" fill-opacity="0.07"/><text x="204" y="306" text-anchor="middle">Graph</text>
+      <rect x="250" y="286" width="84" height="30" rx="15" fill="#ffffff" fill-opacity="0.07"/><text x="292" y="306" text-anchor="middle">Vectors</text>
+    </g>
+  </g>
+
+  <!-- Document being scanned -->
+  <g>
+    <rect x="560" y="58" width="270" height="290" rx="14" fill="#141c2e" stroke="#2a3654"/>
+    <g clip-path="url(#doc-clip)">
+      <rect x="560" y="58" width="270" height="38" fill="#1b2540"/>
+      <circle cx="580" cy="77" r="4" fill="#33405e"/><circle cx="594" cy="77" r="4" fill="#33405e"/><circle cx="608" cy="77" r="4" fill="#33405e"/>
+      <text x="626" y="82" font-size="13" fill="#9fb0cf" class="mono">address-1863.pdf</text>
+
+      <g fill="#33405e">
+        <rect x="584" y="118" width="170" height="9" rx="4.5"/>
+        <rect x="584" y="142" width="222" height="7" rx="3.5"/>
+        <rect x="584" y="160" width="204" height="7" rx="3.5"/>
+        <rect x="584" y="178" width="214" height="7" rx="3.5"/>
+        <rect x="584" y="206" width="222" height="7" rx="3.5"/>
+        <rect x="584" y="224" width="180" height="7" rx="3.5"/>
+        <rect x="584" y="242" width="210" height="7" rx="3.5"/>
+        <rect x="584" y="270" width="222" height="7" rx="3.5"/>
+        <rect x="584" y="288" width="196" height="7" rx="3.5"/>
+        <rect x="584" y="306" width="140" height="7" rx="3.5"/>
+      </g>
+      <!-- Extracted spans light up as the beam passes -->
+      <rect class="hl hl1" x="584" y="115" width="118" height="15" rx="4" fill="#c4a5ff" fill-opacity=".85"/>
+      <rect class="hl hl2" x="664" y="139" width="92"  height="13" rx="4" fill="#6fe0b2" fill-opacity=".85"/>
+      <rect class="hl hl3" x="600" y="175" width="120" height="13" rx="4" fill="#ffcf70" fill-opacity=".85"/>
+      <rect class="hl hl4" x="700" y="221" width="64"  height="13" rx="4" fill="#7cc4ff" fill-opacity=".85"/>
+      <rect class="hl hl5" x="584" y="267" width="84"  height="13" rx="4" fill="#6fe0b2" fill-opacity=".85"/>
+      <rect class="hl hl6" x="690" y="303" width="34"  height="13" rx="4" fill="#ffcf70" fill-opacity=".85"/>
+
+      <rect class="beam" x="560" y="58" width="270" height="44" fill="url(#beam)"/>
+    </g>
+  </g>
+
+  <!-- Flow -->
+  <g>
+    <rect x="846" y="202" width="50" height="3" rx="1.5" fill="url(#flow)"/>
+    <circle class="particle" cx="846" cy="203.5" r="4" fill="#6ea8fe"/>
+    <circle class="particle" style="animation-delay:.55s" cx="846" cy="203.5" r="3" fill="#6ea8fe"/>
+    <circle class="particle" style="animation-delay:1.1s" cx="846" cy="203.5" r="3.5" fill="#6ea8fe"/>
+    <path d="M890 196 l8 7.5 l-8 7.5" fill="none" stroke="#6ea8fe" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Structured output -->
+  <g>
+    <rect x="912" y="78" width="318" height="200" rx="14" fill="#0e1526" stroke="#26324e"/>
+    <text class="mono json" x="934" y="110" style="animation-delay:0s" fill="#7d8aa6">{ <tspan fill="#8ab4ff">"entities"</tspan>: [</text>
+    <text class="mono json" x="950" y="136" style="animation-delay:.15s" fill="#7d8aa6">{ <tspan fill="#8ab4ff">"text"</tspan>: <tspan fill="#9be3c1">"A. Lincoln"</tspan>,</text>
+    <text class="mono json" x="966" y="158" style="animation-delay:.25s" fill="#7d8aa6"><tspan fill="#8ab4ff">"type"</tspan>: <tspan fill="#c4a5ff">"PERSON"</tspan> },</text>
+    <text class="mono json" x="950" y="184" style="animation-delay:.4s" fill="#7d8aa6">{ <tspan fill="#8ab4ff">"text"</tspan>: <tspan fill="#9be3c1">"Gettysburg"</tspan>,</text>
+    <text class="mono json" x="966" y="206" style="animation-delay:.5s" fill="#7d8aa6"><tspan fill="#8ab4ff">"type"</tspan>: <tspan fill="#6fe0b2">"GPE"</tspan> },</text>
+    <text class="mono json" x="950" y="232" style="animation-delay:.65s" fill="#7d8aa6">{ <tspan fill="#8ab4ff">"type"</tspan>: <tspan fill="#ffcf70">"DATE"</tspan>, <tspan fill="#8ab4ff">"conf"</tspan>: <tspan fill="#9be3c1">0.93</tspan> }</text>
+    <text class="mono json" x="934" y="258" style="animation-delay:.8s" fill="#7d8aa6">]}</text>
+  </g>
+
+  <!-- Tags -->
+  <g font-size="13" font-weight="700">
+    <g class="tag" style="animation-delay:0s"><rect x="912" y="298" width="92" height="30" rx="15" fill="#c4a5ff" fill-opacity=".18" stroke="#c4a5ff"/><text x="958" y="318" text-anchor="middle" fill="#c4a5ff">PERSON</text></g>
+    <g class="tag" style="animation-delay:.12s"><rect x="1012" y="298" width="64" height="30" rx="15" fill="#6fe0b2" fill-opacity=".18" stroke="#6fe0b2"/><text x="1044" y="318" text-anchor="middle" fill="#6fe0b2">GPE</text></g>
+    <g class="tag" style="animation-delay:.24s"><rect x="1084" y="298" width="68" height="30" rx="15" fill="#ffcf70" fill-opacity=".18" stroke="#ffcf70"/><text x="1118" y="318" text-anchor="middle" fill="#ffcf70">DATE</text></g>
+    <g class="tag" style="animation-delay:.36s"><rect x="1160" y="298" width="56" height="30" rx="15" fill="#7cc4ff" fill-opacity=".18" stroke="#7cc4ff"/><text x="1188" y="318" text-anchor="middle" fill="#7cc4ff">ORG</text></g>
+  </g>
+</svg>
