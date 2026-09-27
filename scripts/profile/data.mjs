@@ -1,6 +1,6 @@
-// Every fact the profile renders lives here. Sources: the public showcase
-// READMEs (measured numbers), the portfolio's src/lib/data.ts (experience,
-// research, certifications) and each public repository. Edit this file, then
+// Every fact the profile renders lives here. Sources, newest first: the
+// resume (assets/Kashyap_Patel_Resume.pdf), the public showcase READMEs
+// (measured numbers), the portfolio's src/lib/data.ts and each public repo. Edit this file, then
 // run `node scripts/build-profile.mjs`.
 
 export const GH = 'https://github.com/DeAtHfIrE26';
@@ -9,11 +9,11 @@ const repo = (name) => `${GH}/${name}`;
 export const person = {
   name: 'Kashyap Patel',
   handle: 'DeAtHfIrE26',
-  title: 'Software Engineer · Full Stack · Cloud · AI/ML',
+  title: 'Full-Stack Engineer · .NET · React · Python · Cloud',
   tagline: 'Engineering systems that scale, survive, and ship.',
   location: 'Noida, India',
   portfolio: 'https://kashyappatel.vercel.app',
-  resume: `${GH}/kashyap-portfolio/blob/main/public/kashyap-patel-resume.pdf`,
+  resume: 'assets/Kashyap_Patel_Resume.pdf',
   email: 'kashyappatel2673@gmail.com',
   linkedin: 'https://www.linkedin.com/in/kashyap-patel2673/',
   leetcode: 'https://leetcode.com/u/Kashyap_patel26/',
@@ -22,53 +22,58 @@ export const person = {
 
 // Hero terminal: typed out line by line.
 export const terminal = [
-  ['role', 'Full Stack · Cloud · AI/ML'],
-  ['now', 'Application Developer @ Gentell'],
-  ['patent', 'inPASS #202541122226'],
+  ['role', 'Full-Stack · .NET · React · Azure'],
+  ['now', 'Lead Dev, Atlas @ Gentell'],
+  ['shipped', '97-endpoint platform, solo'],
+  ['impact', '10–20K orders/day synced'],
   ['research', 'IEEE ICCCNT-2025 + 2 papers'],
-  ['impact', '4,000+ healthcare facilities'],
+  ['patent', 'inPASS #202541122226'],
   ['status', 'open to new roles'],
 ];
 
 // Headline counters (odometer animation).
 export const headline = [
-  { value: '4,000+', label: 'healthcare facilities', sub: 'on the MyOrders platform', key: 'accent' },
-  { value: '8.54', label: 'CGPA', sub: 'Computer Science · VIT', key: 'cyan' },
-  { value: '98.7%', label: 'recognition precision', sub: 'AI Interview Coach', key: 'green' },
+  { value: '97', label: 'API endpoints, built solo', sub: 'MyOrders · shipped in 2 weeks', key: 'accent' },
+  { value: '75%', label: 'API latency cut', sub: '400 → 100 ms with Redis', key: 'cyan' },
+  { value: '8.54', label: 'CGPA', sub: 'B.Tech CSE · VIT Vellore', key: 'green' },
   { value: '3+1', label: 'papers + patent', sub: 'IEEE · INCONSYM · ICICT', key: 'amber' },
 ];
 
 export const neofetch = [
-  ['Role', 'Software Engineer · Full Stack · Cloud · AI/ML'],
-  ['Work', 'Junior Application Developer @ Gentell'],
+  ['Role', 'Full-Stack Software Engineer'],
+  ['Work', 'Lead Developer (Atlas/CMN) @ Gentell'],
   ['Location', 'Noida, India'],
-  ['Education', 'Computer Science, VIT · CGPA 8.54'],
-  ['Stack', 'React · Next.js · .NET · Azure · Python'],
-  ['AI / ML', 'TensorFlow · OpenCV · DeepFace · LLMs'],
-  ['Research', '3 papers · IEEE ICCCNT-2025'],
-  ['Patent', 'inPASS #202541122226 · published'],
-  ['Certified', 'Google Cloud · AWS Cloud Practitioner'],
-  ['Now', 'ML & deep learning · cloud · edge AI'],
+  ['Education', 'B.Tech CSE, VIT Vellore · CGPA 8.54'],
+  ['Stack', '.NET/C# · React · Python · Azure · AWS'],
+  ['Data', 'SQL Server · Postgres · Redis · Snowflake'],
+  ['Integrates', 'Brightree · DocuSign · CMS PECOS · Stripe'],
+  ['AI / ML', 'RAG · LLMs · TensorFlow · OpenCV'],
+  ['Research', '3 papers · IEEE / Scopus'],
+  ['Patent', 'inPASS #202541122226 · filed'],
+  ['Certified', 'AWS Cloud Practitioner · GCP Digital Leader'],
   ['2026', 'AI automation · system design · DSA'],
 ];
 
 export const experience = [
   {
     period: 'Jul 2025 – Present', current: true,
-    role: 'Junior Application Developer', company: 'Gentell', place: 'Noida, India',
+    role: 'Junior Application Developer · Lead Developer (Atlas/CMN)', company: 'Gentell', place: 'Noida, India',
     impact: [
-      'Sole architect of Gentell MyOrders, a Next.js + .NET + Azure platform serving 4,000+ healthcare facilities at a sub-100 ms SLA.',
-      'Built a Playwright + Cucumber E2E suite across the critical clinical journeys; validated Snowflake (AWS) analytics pipelines with zero data drift.',
-      'Shipped Fastcare end to end: React + ASP.NET + Redis caching, RBAC, API rate limiting and Azure DevOps CI/CD.',
+      'Built and shipped MyOrders, a 97-endpoint healthcare order platform (.NET, ASP.NET Core, React, SQL Server, Azure), as sole developer under a 2-week deadline: 1,000+ users across 7 branches and 10–20K daily orders synced with Brightree EHR.',
+      'Architected a 28-endpoint RBAC admin system (30+ DTO schemas, bulk approvals, JWT) and integrated CMS PECOS physician records for instant NPI and name lookups.',
+      'Cut API latency 75% (400 ms → 100 ms) with a Redis distributed cache on Azure App Service, and migrated the data warehouse from Azure to AWS Snowflake with zero downtime.',
+      'Led Atlas, a Certificate-of-Medical-Necessity module that moved a Salesforce-licensed workflow ($175/user/month) into Fastcare: automated PDFs, multi-signer DocuSign routing and Brightree DMS upload.',
+      'Wrote 40+ Playwright and Cucumber BDD tests that run in CI/CD on every deploy, saving 2–3 hours of manual QA per release.',
+      'On-call DRI for production incidents on a 4,000+ facility wound-care SaaS.',
     ],
-    stack: ['Next.js', '.NET', 'Azure', 'Snowflake', 'Redis', 'SQL Server', 'Playwright'],
+    stack: ['.NET', 'ASP.NET Core', 'React', 'SQL Server', 'Azure', 'Redis', 'Snowflake', 'DocuSign', 'Playwright'],
   },
   {
     period: 'Aug 2024 – Apr 2025',
-    role: 'Tech Advisor & Full Stack Developer', company: 'Homoeocare Pharma', place: 'Remote',
+    role: 'Full-Stack Developer (Freelance)', company: 'Homoeocare Pharma', place: 'Remote',
     impact: [
-      'Built the e-commerce platform from scratch: +45% organic traffic and −30% bounce rate within 60 days of launch.',
-      'Integrated Stripe payments, real-time inventory and a custom appointment-scheduling engine.',
+      'Delivered an end-to-end e-commerce platform for an FDA-approved pharmaceutical brand as sole developer: 7 product categories, 50+ SKUs and Stripe checkout.',
+      'Built a custom inventory backend, a doctor portal and an appointment-booking module.',
     ],
     stack: ['WordPress', 'PHP', 'Stripe'],
   },
@@ -81,13 +86,19 @@ export const experience = [
     ],
     stack: ['TensorFlow', 'Python', 'NLP', 'MLOps'],
   },
+  {
+    period: 'Sep 2021 – May 2025', edu: true,
+    role: 'B.Tech, Computer Science', company: 'Vellore Institute of Technology', place: 'Vellore',
+    impact: ['Graduated with a CGPA of 8.54 / 10.0.'],
+    stack: [],
+  },
 ];
 
 // Flagship projects. `metrics` animate as before→after bars; `facts` as tiles.
 export const flagships = [
   {
     id: 'document-intelligence', title: 'Document Intelligence Framework', tag: 'AI · SEARCH · FULL STACK', key: 'accent',
-    desc: 'Upload a PDF, scan, note or audio file: people, places, dates and organisations are extracted into a knowledge graph you can search, with AI answers that cite their sources.',
+    desc: 'A retrieval-augmented document platform: extraction, embeddings, cross-encoder reranking and a knowledge graph behind a Flask API. Upload a PDF, scan, note or audio file, then search it with AI answers that cite their sources.',
     metrics: [
       ['Process a 21 KB document', 230, 2.9, 's'],
       ['Live search', 15.7, 0.33, 's'],
@@ -114,43 +125,43 @@ export const flagships = [
     art: 'rideshare',
   },
   {
-    id: 'healthhubpro', title: 'HealthHubPro', tag: 'HEALTH · DATA VIZ · A11Y', key: 'green',
-    desc: 'Health tracking for steps, sleep, hydration and workouts with rule-based insights. Streams a 300 MB Apple Health export in 4 MB slices and passes WCAG AA in both themes.',
+    id: 'healthhubpro', title: 'HealthHubPro', tag: 'HEALTH · TIME SERIES · A11Y', key: 'green',
+    desc: 'Health tracking on a 26-endpoint TypeScript API with a Redis cache, InfluxDB time series for 6 biometric signals, and Kubernetes deploys watched by Prometheus, Grafana and Sentry. Streams a 300 MB Apple Health export in 4 MB slices.',
     metrics: [
       ['Chart chunk, gzipped', 99.38, 2.11, 'kB'],
       ['Dashboard payload', 766, 377, 'kB'],
       ['Total blocking time, mobile', 349, 175, 'ms'],
     ],
-    stack: ['React 18', 'TypeScript', 'Vite', 'Tailwind', 'Radix UI', 'Vitest'],
+    stack: ['TypeScript', 'Node.js', 'PostgreSQL', 'Redis', 'InfluxDB', 'Kubernetes', 'React 18'],
     live: 'https://healthhubproapp.vercel.app', code: repo('healthhubpro-showcase'),
     extra: ['Playground', 'https://deathfire26.github.io/healthhubpro-showcase/'],
     gif: 'https://raw.githubusercontent.com/DeAtHfIrE26/healthhubpro-showcase/main/assets/demo.gif',
     art: 'healthhubpro',
   },
   {
-    id: 'merkle-verif', title: 'Merkle Verify', tag: 'BLOCKCHAIN · CRYPTOGRAPHY', key: 'pink',
-    desc: 'A Merkle-tree and inclusion-proof verifier, byte-compatible with Solidity and OpenZeppelin\'s StandardMerkleTree. Click a leaf, watch its proof light up, tamper with it, watch the verdict flip.',
+    id: 'merkle-verif', title: 'Merkle Verify', tag: 'ON-CHAIN VERIFICATION · SOLIDITY', key: 'pink',
+    desc: 'An on-chain verification suite: a Merkle-proof verifier byte-compatible with OpenZeppelin, an ECDSA verifier that rejects malleable signatures (EIP-2), and a USDC transfer tracker indexed through a subgraph. The live visualizer lets you tamper with a proof and watch the verdict flip.',
     facts: [
       ['278', 'tests in the engine'],
       ['12', 'leaf counts at OZ parity'],
       ['41', 'Solidity↔TS parity tests'],
       ['0', 'prod dependency vulns'],
     ],
-    stack: ['React 19', 'TypeScript', 'Solidity', 'keccak256', 'OpenZeppelin', 'Vitest'],
+    stack: ['Solidity', 'Hardhat', 'The Graph', 'ethers.js', 'OpenZeppelin', 'React 19', 'TypeScript'],
     live: 'https://merkle-verif.vercel.app', code: repo('merkle-verif-showcase'),
     gif: 'https://raw.githubusercontent.com/DeAtHfIrE26/merkle-verif-showcase/main/assets/demo.gif',
     art: 'merkle-verif',
   },
   {
-    id: 'interview-coach', title: 'AI Interview Coach', tag: 'GEN AI · COMPUTER VISION · PATENTED', key: 'amber',
-    desc: 'An interview simulator with lip-sync verification, gaze tracking and voice authentication, generating adaptive questions and behavioural analytics. Published at IEEE ICCCNT-2025 and patented.',
+    id: 'interview-coach', title: 'AI Interview Coach', tag: 'GEN AI · RAG · COMPUTER VISION', key: 'amber',
+    desc: 'A multimodal interview platform with 5 assessment modes and no fixed question bank: an LLM + RAG engine writes resume-aware questions and scores answers on 4 dimensions, while lip-sync verification flags passive test-taking. IEEE ICCCNT 2025; patent filed.',
     facts: [
-      ['98.7%', 'facial recognition precision'],
-      ['IEEE', 'ICCCNT-2025 paper'],
-      ['Patent', '#202541122226'],
-      ['3', 'auth signals: face · lips · voice'],
+      ['5', 'assessment modes'],
+      ['4', 'scoring dimensions'],
+      ['92%+', 'lip-sync verification accuracy'],
+      ['0', 'fixed questions: all generated'],
     ],
-    stack: ['Python', 'OpenCV', 'DeepFace', 'MediaPipe', 'Resemblyzer', 'Mistral AI'],
+    stack: ['Python', 'TensorFlow', 'OpenCV', 'DeepFace', 'LLMs', 'RAG', 'MediaPipe'],
     code: repo('Next-Generation-Virtual-Interview-Training-System'),
     extra: ['Coach UI', repo('futuristic-ai-interviewer')],
     gif: 'https://raw.githubusercontent.com/DeAtHfIrE26/Next-Generation-Virtual-Interview-Training-System/main/VirtualCoach.gif',
@@ -213,13 +224,13 @@ export const publications = [
 
 export const patent = {
   title: 'AI-Powered Virtual Interview Coaching System with Multimodal Authentication',
-  office: 'Indian Patent Office (inPASS)', number: '202541122226', year: '2025', status: 'Published',
+  office: 'Indian Patent Office (inPASS)', number: '202541122226', year: '2025', status: 'Filed',
 };
 
 export const certifications = [
+  { name: 'Cloud Practitioner (CLF-C02)', provider: 'Amazon Web Services', key: 'amber' },
   { name: 'Cloud Digital Leader', provider: 'Google Cloud', key: 'blue' },
   { name: 'Computing Foundations', provider: 'Google Cloud', key: 'green' },
-  { name: 'Cloud Practitioner (CLF-C02)', provider: 'Amazon Web Services', key: 'amber' },
   { name: 'Full-Stack Web Development', provider: 'Udemy', key: 'accent' },
   { name: 'Machine Learning Fundamentals', provider: 'Coursera', key: 'cyan' },
 ];
@@ -235,6 +246,6 @@ export const skills = [
 ];
 
 export const marquee = [
-  ['React', 'Next.js', 'TypeScript', '.NET Core', 'C#', 'Python', 'TensorFlow', 'Azure', 'SQL Server', 'Snowflake', 'Redis', 'Playwright', 'Solidity', 'Tailwind'],
-  ['Node.js', 'PostgreSQL', 'pgvector', 'MongoDB', 'Docker', 'Kubernetes', 'OpenCV', 'Generative AI', 'Firebase', 'Neo4j', 'Grafana', 'Hugging Face', 'GSAP', 'Three.js'],
+  ['C#', '.NET', 'ASP.NET Core', 'React', 'Next.js', 'TypeScript', 'Python', 'Azure', 'AWS', 'SQL Server', 'Snowflake', 'Redis', 'Playwright', 'Cucumber', 'Solidity', 'Hardhat'],
+  ['Node.js', 'PostgreSQL', 'InfluxDB', 'MongoDB', 'Neo4j', 'Docker', 'Kubernetes', 'Prometheus', 'Sentry', 'RAG', 'LLMs', 'TensorFlow', 'OpenCV', 'DocuSign', 'Brightree', 'The Graph'],
 ];

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 584" width="1200" height="584" role="img" aria-labelledby="t d">
 <title id="t">Research and patent</title>
-<desc id="d">IEEE · ICCCNT-2025: Spontaneous Virtual Interview Coaching via Lip-Sync-Empowered Generative AI; INCONSYM-2025: Unified Multi-Face Detection Framework for Enhanced Automated Attendance Systems; ICICT-2024: AgriSmart: Empowering Small-Scale Farmers with Precision Agriculture Tools. Patent: AI-Powered Virtual Interview Coaching System with Multimodal Authentication, Indian Patent Office (inPASS), application 202541122226 (2025), Published.</desc>
+<desc id="d">IEEE · ICCCNT-2025: Spontaneous Virtual Interview Coaching via Lip-Sync-Empowered Generative AI; INCONSYM-2025: Unified Multi-Face Detection Framework for Enhanced Automated Attendance Systems; ICICT-2024: AgriSmart: Empowering Small-Scale Farmers with Precision Agriculture Tools. Patent: AI-Powered Virtual Interview Coaching System with Multimodal Authentication, Indian Patent Office (inPASS), application 202541122226 (2025), Filed.</desc>
 <defs>
     <clipPath id="rclip"><rect x="1" y="1" width="1198" height="582" rx="18"/></clipPath>
     <filter id="rblur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="86"/></filter>
@@ -62,6 +62,6 @@
       <text x="965" y="340" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="15" fill="#fbbf24">#202541122226</text>
       <text x="965" y="366" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="13" fill="#8b949e">Indian Patent Office (inPASS)</text>
       <circle class="pulse" cx="915" cy="393" r="5" fill="#34d399"/>
-      <text x="927" y="398" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="13" font-weight="700" fill="#34d399">PUBLISHED</text>
+      <text x="927" y="398" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="13" font-weight="700" fill="#34d399">FILED</text>
     </g>
 </svg>
