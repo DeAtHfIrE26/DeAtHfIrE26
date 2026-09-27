@@ -7,12 +7,12 @@
 <a href="https://kashyappatel.vercel.app"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/profile/hero-light.svg">
-  <img alt="Kashyap Patel: Software Engineer · Full Stack · Cloud · AI/ML. Engineering systems that scale, survive, and ship." src="assets/profile/hero-dark.svg" width="100%">
+  <img alt="Kashyap Patel: Full-Stack Engineer · .NET · React · Python · Cloud. Engineering systems that scale, survive, and ship." src="assets/profile/hero-dark.svg" width="100%">
 </picture></a>
 
 <p align="center">
   <a href="https://kashyappatel.vercel.app"><img src="assets/profile/buttons/portfolio.svg" alt="Portfolio" height="38"></a>
-  <a href="https://github.com/DeAtHfIrE26/kashyap-portfolio/blob/main/public/kashyap-patel-resume.pdf"><img src="assets/profile/buttons/resume.svg" alt="Resume" height="38"></a>
+  <a href="assets/Kashyap_Patel_Resume.pdf"><img src="assets/profile/buttons/resume.svg" alt="Resume" height="38"></a>
   <a href="https://www.linkedin.com/in/kashyap-patel2673/"><img src="assets/profile/buttons/linkedin.svg" alt="LinkedIn" height="38"></a>
   <a href="mailto:kashyappatel2673@gmail.com"><img src="assets/profile/buttons/email.svg" alt="Email" height="38"></a>
   <a href="https://leetcode.com/u/Kashyap_patel26/"><img src="assets/profile/buttons/leetcode.svg" alt="LeetCode" height="38"></a>
@@ -22,7 +22,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile/counters-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/profile/counters-light.svg">
-  <img alt="4,000+ healthcare facilities (on the MyOrders platform); 8.54 CGPA (Computer Science · VIT); 98.7% recognition precision (AI Interview Coach); 3+1 papers + patent (IEEE · INCONSYM · ICICT)" src="assets/profile/counters-dark.svg" width="100%">
+  <img alt="97 API endpoints, built solo (MyOrders · shipped in 2 weeks); 75% API latency cut (400 → 100 ms with Redis); 8.54 CGPA (B.Tech CSE · VIT Vellore); 3+1 papers + patent (IEEE · INCONSYM · ICICT)" src="assets/profile/counters-dark.svg" width="100%">
 </picture>
 
 <br>
@@ -36,7 +36,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile/about-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/profile/about-light.svg">
-  <img alt="Role: Software Engineer · Full Stack · Cloud · AI/ML; Work: Junior Application Developer @ Gentell; Location: Noida, India; Education: Computer Science, VIT · CGPA 8.54; Stack: React · Next.js · .NET · Azure · Python; AI / ML: TensorFlow · OpenCV · DeepFace · LLMs; Research: 3 papers · IEEE ICCCNT-2025; Patent: inPASS #202541122226 · published; Certified: Google Cloud · AWS Cloud Practitioner; Now: ML & deep learning · cloud · edge AI; 2026: AI automation · system design · DSA" src="assets/profile/about-dark.svg" width="100%">
+  <img alt="Role: Full-Stack Software Engineer; Work: Lead Developer (Atlas/CMN) @ Gentell; Location: Noida, India; Education: B.Tech CSE, VIT Vellore · CGPA 8.54; Stack: .NET/C# · React · Python · Azure · AWS; Data: SQL Server · Postgres · Redis · Snowflake; Integrates: Brightree · DocuSign · CMS PECOS · Stripe; AI / ML: RAG · LLMs · TensorFlow · OpenCV; Research: 3 papers · IEEE / Scopus; Patent: inPASS #202541122226 · filed; Certified: AWS Cloud Practitioner · GCP Digital Leader; 2026: AI automation · system design · DSA" src="assets/profile/about-dark.svg" width="100%">
 </picture>
 
 <br>
@@ -50,7 +50,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile/experience-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/profile/experience-light.svg">
-  <img alt="Junior Application Developer at Gentell, Jul 2025 – Present. Sole architect of Gentell MyOrders, a Next.js + .NET + Azure platform serving 4,000+ healthcare facilities at a sub-100 ms SLA. Built a Playwright + Cucumber E2E suite across the critical clinical journeys; validated Snowflake (AWS) analytics pipelines with zero data drift. Shipped Fastcare end to end: React + ASP.NET + Redis caching, RBAC, API rate limiting and Azure DevOps CI/CD. Tech Advisor & Full Stack Developer at Homoeocare Pharma, Aug 2024 – Apr 2025. Built the e-commerce platform from scratch: +45% organic traffic and −30% bounce rate within 60 days of launch. Integrated Stripe payments, real-time inventory and a custom appointment-scheduling engine. AI/ML Engineer Intern at TeachNook, Jun 2024 – Jul 2024. Optimised a TensorFlow training pipeline: +30% accuracy, −40% GPU training time. Built the KARY and Doctor chatbots with full MLOps pipelines." src="assets/profile/experience-dark.svg" width="100%">
+  <img alt="Junior Application Developer · Lead Developer (Atlas/CMN) at Gentell, Jul 2025 – Present. Built and shipped MyOrders, a 97-endpoint healthcare order platform (.NET, ASP.NET Core, React, SQL Server, Azure), as sole developer under a 2-week deadline: 1,000+ users across 7 branches and 10–20K daily orders synced with Brightree EHR. Architected a 28-endpoint RBAC admin system (30+ DTO schemas, bulk approvals, JWT) and integrated CMS PECOS physician records for instant NPI and name lookups. Cut API latency 75% (400 ms → 100 ms) with a Redis distributed cache on Azure App Service, and migrated the data warehouse from Azure to AWS Snowflake with zero downtime. Led Atlas, a Certificate-of-Medical-Necessity module that moved a Salesforce-licensed workflow ($175/user/month) into Fastcare: automated PDFs, multi-signer DocuSign routing and Brightree DMS upload. Wrote 40+ Playwright and Cucumber BDD tests that run in CI/CD on every deploy, saving 2–3 hours of manual QA per release. On-call DRI for production incidents on a 4,000+ facility wound-care SaaS. Full-Stack Developer (Freelance) at Homoeocare Pharma, Aug 2024 – Apr 2025. Delivered an end-to-end e-commerce platform for an FDA-approved pharmaceutical brand as sole developer: 7 product categories, 50+ SKUs and Stripe checkout. Built a custom inventory backend, a doctor portal and an appointment-booking module. AI/ML Engineer Intern at TeachNook, Jun 2024 – Jul 2024. Optimised a TensorFlow training pipeline: +30% accuracy, −40% GPU training time. Built the KARY and Doctor chatbots with full MLOps pipelines. B.Tech, Computer Science at Vellore Institute of Technology, Sep 2021 – May 2025. Graduated with a CGPA of 8.54 / 10.0." src="assets/profile/experience-dark.svg" width="100%">
 </picture>
 
 <br>
@@ -74,7 +74,7 @@ Each of these runs in production from a private codebase. The linked repositorie
 <a href="https://docu-intelligence.vercel.app"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile/flagship-document-intelligence-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/profile/flagship-document-intelligence-light.svg">
-  <img alt="Document Intelligence Framework. Upload a PDF, scan, note or audio file: people, places, dates and organisations are extracted into a knowledge graph you can search, with AI answers that cite their sources. Process a 21 KB document: 230 s to 2.9 s; Live search: 15.7 s to 0.33 s; Embedding API calls / upload: 855 to 2; SQL statements / upload: 15084 to 29. Stack: Python, Flask, pgvector, spaCy, OpenAI, Tesseract, TypeScript." src="assets/profile/flagship-document-intelligence-dark.svg" width="100%">
+  <img alt="Document Intelligence Framework. A retrieval-augmented document platform: extraction, embeddings, cross-encoder reranking and a knowledge graph behind a Flask API. Upload a PDF, scan, note or audio file, then search it with AI answers that cite their sources. Process a 21 KB document: 230 s to 2.9 s; Live search: 15.7 s to 0.33 s; Embedding API calls / upload: 855 to 2; SQL statements / upload: 15084 to 29. Stack: Python, Flask, pgvector, spaCy, OpenAI, Tesseract, TypeScript." src="assets/profile/flagship-document-intelligence-dark.svg" width="100%">
 </picture></a>
 
 <p align="center">
@@ -124,7 +124,7 @@ Each of these runs in production from a private codebase. The linked repositorie
 <a href="https://healthhubproapp.vercel.app"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile/flagship-healthhubpro-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/profile/flagship-healthhubpro-light.svg">
-  <img alt="HealthHubPro. Health tracking for steps, sleep, hydration and workouts with rule-based insights. Streams a 300 MB Apple Health export in 4 MB slices and passes WCAG AA in both themes. Chart chunk, gzipped: 99.38 kB to 2.11 kB; Dashboard payload: 766 kB to 377 kB; Total blocking time, mobile: 349 ms to 175 ms. Stack: React 18, TypeScript, Vite, Tailwind, Radix UI, Vitest." src="assets/profile/flagship-healthhubpro-dark.svg" width="100%">
+  <img alt="HealthHubPro. Health tracking on a 26-endpoint TypeScript API with a Redis cache, InfluxDB time series for 6 biometric signals, and Kubernetes deploys watched by Prometheus, Grafana and Sentry. Streams a 300 MB Apple Health export in 4 MB slices. Chart chunk, gzipped: 99.38 kB to 2.11 kB; Dashboard payload: 766 kB to 377 kB; Total blocking time, mobile: 349 ms to 175 ms. Stack: TypeScript, Node.js, PostgreSQL, Redis, InfluxDB, Kubernetes, React 18." src="assets/profile/flagship-healthhubpro-dark.svg" width="100%">
 </picture></a>
 
 <p align="center">
@@ -150,7 +150,7 @@ Each of these runs in production from a private codebase. The linked repositorie
 <a href="https://merkle-verif.vercel.app"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile/flagship-merkle-verif-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/profile/flagship-merkle-verif-light.svg">
-  <img alt="Merkle Verify. A Merkle-tree and inclusion-proof verifier, byte-compatible with Solidity and OpenZeppelin's StandardMerkleTree. Click a leaf, watch its proof light up, tamper with it, watch the verdict flip. 278 tests in the engine; 12 leaf counts at OZ parity; 41 Solidity↔TS parity tests; 0 prod dependency vulns. Stack: React 19, TypeScript, Solidity, keccak256, OpenZeppelin, Vitest." src="assets/profile/flagship-merkle-verif-dark.svg" width="100%">
+  <img alt="Merkle Verify. An on-chain verification suite: a Merkle-proof verifier byte-compatible with OpenZeppelin, an ECDSA verifier that rejects malleable signatures (EIP-2), and a USDC transfer tracker indexed through a subgraph. The live visualizer lets you tamper with a proof and watch the verdict flip. 278 tests in the engine; 12 leaf counts at OZ parity; 41 Solidity↔TS parity tests; 0 prod dependency vulns. Stack: Solidity, Hardhat, The Graph, ethers.js, OpenZeppelin, React 19, TypeScript." src="assets/profile/flagship-merkle-verif-dark.svg" width="100%">
 </picture></a>
 
 <p align="center">
@@ -175,7 +175,7 @@ Each of these runs in production from a private codebase. The linked repositorie
 <a href="https://github.com/DeAtHfIrE26/Next-Generation-Virtual-Interview-Training-System"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile/flagship-interview-coach-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/profile/flagship-interview-coach-light.svg">
-  <img alt="AI Interview Coach. An interview simulator with lip-sync verification, gaze tracking and voice authentication, generating adaptive questions and behavioural analytics. Published at IEEE ICCCNT-2025 and patented. 98.7% facial recognition precision; IEEE ICCCNT-2025 paper; Patent #202541122226; 3 auth signals: face · lips · voice. Stack: Python, OpenCV, DeepFace, MediaPipe, Resemblyzer, Mistral AI." src="assets/profile/flagship-interview-coach-dark.svg" width="100%">
+  <img alt="AI Interview Coach. A multimodal interview platform with 5 assessment modes and no fixed question bank: an LLM + RAG engine writes resume-aware questions and scores answers on 4 dimensions, while lip-sync verification flags passive test-taking. IEEE ICCCNT 2025; patent filed. 5 assessment modes; 4 scoring dimensions; 92%+ lip-sync verification accuracy; 0 fixed questions: all generated. Stack: Python, TensorFlow, OpenCV, DeepFace, LLMs, RAG, MediaPipe." src="assets/profile/flagship-interview-coach-dark.svg" width="100%">
 </picture></a>
 
 <p align="center">
@@ -297,7 +297,7 @@ Each of these runs in production from a private codebase. The linked repositorie
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile/certifications-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/profile/certifications-light.svg">
-  <img alt="Cloud Digital Leader, Google Cloud; Computing Foundations, Google Cloud; Cloud Practitioner (CLF-C02), Amazon Web Services; Full-Stack Web Development, Udemy; Machine Learning Fundamentals, Coursera" src="assets/profile/certifications-dark.svg" width="100%">
+  <img alt="Cloud Practitioner (CLF-C02), Amazon Web Services; Cloud Digital Leader, Google Cloud; Computing Foundations, Google Cloud; Full-Stack Web Development, Udemy; Machine Learning Fundamentals, Coursera" src="assets/profile/certifications-dark.svg" width="100%">
 </picture>
 
 <br>
@@ -311,7 +311,7 @@ Each of these runs in production from a private codebase. The linked repositorie
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile/marquee-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/profile/marquee-light.svg">
-  <img alt="React, Next.js, TypeScript, .NET Core, C#, Python, TensorFlow, Azure, SQL Server, Snowflake, Redis, Playwright, Solidity, Tailwind, Node.js, PostgreSQL, pgvector, MongoDB, Docker, Kubernetes, OpenCV, Generative AI, Firebase, Neo4j, Grafana, Hugging Face, GSAP, Three.js" src="assets/profile/marquee-dark.svg" width="100%">
+  <img alt="C#, .NET, ASP.NET Core, React, Next.js, TypeScript, Python, Azure, AWS, SQL Server, Snowflake, Redis, Playwright, Cucumber, Solidity, Hardhat, Node.js, PostgreSQL, InfluxDB, MongoDB, Neo4j, Docker, Kubernetes, Prometheus, Sentry, RAG, LLMs, TensorFlow, OpenCV, DocuSign, Brightree, The Graph" src="assets/profile/marquee-dark.svg" width="100%">
 </picture>
 
 <picture>

@@ -3,19 +3,24 @@
 
 import { SANS, MONO, esc, wrap, textWidth, chips, frame, svg, delay, color } from './kit.mjs';
 import * as D from './data.mjs';
+import { readFileSync } from 'node:fs';
+
+const here = new URL('.', import.meta.url);
+const PORTRAIT = JSON.parse(readFileSync(new URL('portrait.json', here), 'utf8'));
+const PHOTO = readFileSync(new URL('../../assets/photo/kashyap.jpg', here)).toString('base64');
 
 // ───────────────────────────── hero ─────────────────────────────
 export function hero(t) {
   const W = 1200, H = 460;
   const f = frame(t, W, H, { id: 'h' });
   const CH = 9.6; // 16px mono advance, enforced with textLength
-  const tx = 700, ty0 = 142, lh = 36, CYCLE = 16;
+  const tx = 700, ty0 = 138, lh = 33, CYCLE = 17;
   const keyPad = Math.max(...D.terminal.map(([k]) => k.length));
   let css = '', lines = '';
   D.terminal.forEach(([k, v], i) => {
     const text = `› ${k.padEnd(keyPad)} :: ${v}`;
     const w = Math.round(text.length * CH);
-    const s = ((0.9 + i * 1.15) / CYCLE) * 100, e = ((0.9 + i * 1.15 + 0.85) / CYCLE) * 100;
+    const s = ((0.9 + i * 1.05) / CYCLE) * 100, e = ((0.9 + i * 1.05 + 0.8) / CYCLE) * 100;
     css += `@keyframes ty${i}{0%,${s.toFixed(2)}%{transform:translateX(0);animation-timing-function:steps(${text.length},end)}${e.toFixed(2)}%,88%{transform:translateX(${w + 4}px)}92%,100%{transform:translateX(0)}}
     .ty${i}{animation:ty${i} ${CYCLE}s infinite}`;
     const y = ty0 + i * lh;
@@ -25,7 +30,7 @@ export function hero(t) {
       `<rect class="ty${i}" x="${tx - 2}" y="${y - 20}" width="${w + 8}" height="28" fill="${t.panel2}"/>`;
   });
   const cursorY = ty0 + D.terminal.length * lh;
-  const pills = ['Gentell · since Jul 2025', 'VIT · CGPA 8.54', 'Patent #202541122226', 'IEEE ICCCNT-2025'];
+  const pills = ['Gentell · Lead Dev (Atlas)', 'B.Tech CSE · VIT · 8.54', 'Patent #202541122226', 'IEEE ICCCNT-2025'];
   let px = 64, py = 318, pillSvg = '';
   pills.forEach((p, i) => {
     const w = Math.round(textWidth(p, 14, true) + 28);
@@ -127,37 +132,45 @@ export function header(t, num, title, sub) {
 }
 
 // ───────────────────────────── neofetch ─────────────────────────────
-const ASCII = [
-  '██    ██   ███████ ',
-  '██   ██    ██    ██',
-  '██  ██     ██    ██',
-  '█████      ███████ ',
-  '██  ██     ██      ',
-  '██   ██    ██      ',
-  '██    ██   ██      ',
-];
+// Halftone portrait (scripts/tools/make-portrait.mjs) that resolves into the photo.
 export function neofetch(t) {
   const W = 1200, rowH = 31, top = 112;
   const H = top + D.neofetch.length * rowH + 110;
   const f = frame(t, W, H, { id: 'n', hue: ['cyan', 'accent', 'green'] });
   const ax = 56, ay = 200;
-  const PX = 17, art = ASCII.flatMap((l, r) => [...l].map((ch, q) => ch === '█' ? `<rect class="px" style="animation-delay:${(0.2 + (q + r) * 0.03).toFixed(2)}s" x="${ax + q * PX}" y="${ay - 30 + r * PX}" width="${PX - 2}" height="${PX - 2}" rx="3" fill="url(#asc)"/>` : '')).join('');
+  const box = 300, bx = 60, by = 100, pcx = bx + box / 2, pcy = by + box / 2, cell = box / PORTRAIT.n;
+  const prow = new Map();
+  for (const [x, y, d] of PORTRAIT.dots) {
+    const v = t.name === 'dark' ? d : 1 - d;
+    const c = `<circle cx="${(bx + (x + 0.5) * cell).toFixed(1)}" cy="${(by + (y + 0.5) * cell).toFixed(1)}" r="${(0.45 + v * (cell / 2 - 0.35)).toFixed(2)}"/>`;
+    prow.set(y, (prow.get(y) ?? '') + c);
+  }
+  const art = [...prow].map(([y, c]) => `<g class="prow" style="animation-delay:${(0.2 + y * 0.035).toFixed(2)}s">${c}</g>`).join('');
   const kx = 470;
   const rows = D.neofetch.map(([k, v], i) => `<g class="in" ${delay(0.3 + i * 0.09)}><text x="${kx}" y="${top + 52 + i * rowH}" font-family="${MONO}" font-size="17"><tspan fill="${t.accent}" font-weight="700">${esc(k)}</tspan><tspan fill="${t.faint}">: </tspan><tspan fill="${t.text}">${esc(v)}</tspan></text></g>`).join('');
   const pal = [t.accent, t.cyan, t.green, t.amber, t.pink, t.blue, t.text, t.muted];
   const palY = top + 52 + D.neofetch.length * rowH;
   return svg(W, H, {
     title: 'About Kashyap', desc: D.neofetch.map(([k, v]) => `${k}: ${v}`).join('; '),
-    defs: f.defs + `<linearGradient id="asc" gradientUnits="userSpaceOnUse" x1="${ax}" y1="${ay - 30}" x2="${ax + 340}" y2="${ay + 100}"><stop offset="0" stop-color="${t.accent}"/><stop offset=".5" stop-color="${t.cyan}"/><stop offset="1" stop-color="${t.green}"/></linearGradient>
-    <clipPath id="artclip"><rect x="${ax - 10}" y="${ay - 34}" width="340" height="130"/></clipPath>`,
-    css: f.css + `.px{opacity:0;animation:px .5s ease-out forwards}@keyframes px{from{opacity:0;transform:scale(.4)}to{opacity:1;transform:none}}.px{transform-box:fill-box;transform-origin:center}
-    .scan{animation:scan 3.5s linear infinite}@keyframes scan{from{transform:translateY(0)}to{transform:translateY(130px)}}`,
+    defs: f.defs + `<linearGradient id="asc" gradientUnits="userSpaceOnUse" x1="${bx}" y1="${by}" x2="${bx + box}" y2="${by + box}"><stop offset="0" stop-color="${t.accent}"/><stop offset=".5" stop-color="${t.cyan}"/><stop offset="1" stop-color="${t.green}"/></linearGradient>
+    <clipPath id="pclip"><circle cx="${pcx}" cy="${pcy}" r="140"/></clipPath>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${t.accent}"/><stop offset=".5" stop-color="${t.cyan}"/><stop offset="1" stop-color="${t.green}"/></linearGradient>`,
+    css: f.css + `.prow{animation:prow .6s cubic-bezier(.2,.8,.2,1) both}@keyframes prow{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+    .dots{animation:dots 12s ease-in-out 2s infinite}@keyframes dots{0%,30%{opacity:1}40%,70%{opacity:.08}80%,100%{opacity:1}}
+    .photo{opacity:0;animation:photo 12s ease-in-out 2s infinite}@keyframes photo{0%,30%{opacity:0}40%,70%{opacity:1}80%,100%{opacity:0}}
+    .spin{animation:spin 24s linear infinite;transform-origin:${pcx}px ${pcy}px}.spin2{animation:spin 14s linear infinite reverse;transform-origin:${pcx}px ${pcy}px}@keyframes spin{to{transform:rotate(360deg)}}
+    @media (prefers-reduced-motion:reduce){.photo{opacity:0!important}}`,
     body: `${f.back}
-    <g class="in">${art}</g>
-    <g clip-path="url(#artclip)"><rect class="scan" x="${ax - 10}" y="${ay - 40}" width="340" height="6" fill="${t.cyan}" opacity=".35"/></g>
+    <circle cx="${pcx}" cy="${pcy}" r="140" fill="${t.panel2}" stroke="${t.border}"/>
+    <g clip-path="url(#pclip)">
+      <g class="dots" fill="url(#asc)">${art}</g>
+      <image class="photo" href="data:image/jpeg;base64,${PHOTO}" x="${bx}" y="${by}" width="${box}" height="${box}" preserveAspectRatio="xMidYMid slice"/>
+    </g>
+    <circle class="spin" cx="${pcx}" cy="${pcy}" r="150" fill="none" stroke="url(#ring)" stroke-width="3" stroke-dasharray="46 18" stroke-linecap="round"/>
+    <circle class="spin2" cx="${pcx}" cy="${pcy}" r="160" fill="none" stroke="${t.faint}" stroke-width="1.2" stroke-dasharray="2 8"/>
     <g class="in" ${delay(0.4)}>
-      <text x="${ax}" y="${ay + 148}" font-family="${MONO}" font-size="15" fill="${t.muted}">Engineering systems that</text>
-      <text x="${ax}" y="${ay + 172}" font-family="${MONO}" font-size="15" fill="${t.muted}">scale, survive, and ship.</text>
+      <text x="${pcx}" y="${pcy + 196}" text-anchor="middle" font-family="${MONO}" font-size="15" fill="${t.muted}">Engineering systems that</text>
+      <text x="${pcx}" y="${pcy + 220}" text-anchor="middle" font-family="${MONO}" font-size="15" fill="${t.muted}">scale, survive, and ship.</text>
     </g>
     <g class="in" ${delay(0.15)}>
       <text x="${kx}" y="${top}" font-family="${MONO}" font-size="20" font-weight="700"><tspan fill="${t.accent}">kashyap</tspan><tspan fill="${t.text}">@</tspan><tspan fill="${t.cyan}">github</tspan></text>
@@ -175,8 +188,7 @@ export function experience(t) {
   D.experience.forEach((e, i) => {
     const bullets = e.impact.map((b) => wrap(b, cw - 2 * pad - 24, 17));
     const bH = bullets.reduce((s, l) => s + l.length * 25 + 8, 0);
-    const chipRes = chips(t, e.stack, cx + pad, 0, cw - 2 * pad, { size: 12, h: 24, colorKey: 'cyan' });
-    const chipH = chipRes.bottom;
+    const chipH = e.stack.length ? chips(t, e.stack, cx + pad, 0, cw - 2 * pad, { size: 12, h: 24, colorKey: 'cyan' }).bottom : -12;
     const h = pad + 118 + bH + chipH + pad;
     let by = y + pad + 118, bl = '';
     bullets.forEach((ls) => {
@@ -187,13 +199,13 @@ export function experience(t) {
     const chipsAt = chips(t, e.stack, cx + pad, by + 4, cw - 2 * pad, { size: 12, h: 24, colorKey: 'cyan' }).svg;
     cards += `<g class="in" ${delay(0.25 + i * 0.25)}>
       <rect x="${cx}" y="${y}" width="${cw}" height="${h}" rx="14" fill="${t.panel2}" stroke="${e.current ? t.accent : t.border}" stroke-opacity="${e.current ? 0.7 : 1}"/>
-      <text x="${cx + pad}" y="${y + pad + 14}" font-family="${MONO}" font-size="14" letter-spacing="2" fill="${t.accent}">${esc(e.period.toUpperCase())}</text>
+      <text x="${cx + pad}" y="${y + pad + 14}" font-family="${MONO}" font-size="14" letter-spacing="2" fill="${e.edu ? t.amber : t.accent}">${esc(e.period.toUpperCase())}${e.edu ? ' · EDUCATION' : ''}</text>
       ${e.current ? `<g><rect x="${cx + cw - pad - 96}" y="${y + pad - 4}" width="96" height="26" rx="13" fill="${t.green}" fill-opacity=".12" stroke="${t.green}" stroke-opacity=".5"/><circle class="pulse" cx="${cx + cw - pad - 80}" cy="${y + pad + 9}" r="4" fill="${t.green}"/><text x="${cx + cw - pad - 68}" y="${y + pad + 14}" font-family="${MONO}" font-size="12" font-weight="700" fill="${t.green}">CURRENT</text></g>` : ''}
       <text x="${cx + pad}" y="${y + pad + 52}" font-family="${SANS}" font-size="27" font-weight="800" fill="${t.text}">${esc(e.role)}</text>
       <text x="${cx + pad}" y="${y + pad + 82}" font-family="${SANS}" font-size="18" fill="${t.muted}"><tspan fill="${t.cyan}" font-weight="700">${esc(e.company)}</tspan> · ${esc(e.place)}</text>
       ${bl}${chipsAt}
     </g>`;
-    dots.push([y + pad + 10, e.current]);
+    dots.push([y + pad + 10, e.current, e.edu]);
     y += h + 28;
   });
   const H = y + 12;
@@ -207,7 +219,7 @@ export function experience(t) {
     body: `${f.back}
     <line x1="${lx}" y1="${dots[0][0]}" x2="${lx}" y2="${dots.at(-1)[0]}" stroke="${t.border}" stroke-width="3"/>
     <line class="tl" x1="${lx}" y1="${dots[0][0]}" x2="${lx}" y2="${dots.at(-1)[0]}" stroke="url(#tl)" stroke-width="3"/>
-    ${dots.map(([dy, cur], i) => `<g class="in" ${delay(0.2 + i * 0.25)}><circle cx="${lx}" cy="${dy}" r="9" fill="${t.panel}" stroke="${cur ? t.green : t.accent}" stroke-width="3"/>${cur ? `<circle class="ring" cx="${lx}" cy="${dy}" r="9" fill="none" stroke="${t.green}" stroke-width="2"/>` : ''}<line x1="${lx + 12}" y1="${dy}" x2="${cx}" y2="${dy}" stroke="${t.border}" stroke-width="2" stroke-dasharray="4 4"/></g>`).join('')}
+    ${dots.map(([dy, cur, edu], i) => `<g class="in" ${delay(0.2 + i * 0.25)}>${edu ? `<rect x="${lx - 9}" y="${dy - 9}" width="18" height="18" rx="4" transform="rotate(45 ${lx} ${dy})" fill="${t.panel}" stroke="${t.amber}" stroke-width="3"/>` : `<circle cx="${lx}" cy="${dy}" r="9" fill="${t.panel}" stroke="${cur ? t.green : t.accent}" stroke-width="3"/>`}${cur ? `<circle class="ring" cx="${lx}" cy="${dy}" r="9" fill="none" stroke="${t.green}" stroke-width="2"/>` : ''}<line x1="${lx + 12}" y1="${dy}" x2="${cx}" y2="${dy}" stroke="${t.border}" stroke-width="2" stroke-dasharray="4 4"/></g>`).join('')}
     ${cards}`,
   });
 }
@@ -291,7 +303,7 @@ export function interviewArt(t) {
     const x = 980 + i * 13, h = 24 + ((i * 37) % 50);
     return `<rect x="${x}" y="${fy + 30 - h / 2}" width="7" height="${h}" rx="3.5" fill="${t.amber}" class="wv" style="animation-delay:${(i * 0.07).toFixed(2)}s"/>`;
   }).join('');
-  const badges = [['FACE MATCH', '98.7%', t.green], ['LIP-SYNC', 'VERIFIED', t.accent], ['VOICE', 'AUTHENTIC', t.amber]];
+  const badges = [['FACE', 'MATCHED', t.green], ['LIP-SYNC', '92%+', t.accent], ['VOICE', 'AUTHENTIC', t.amber]];
   return svg(W, H, {
     title: 'AI Interview Coach', desc: 'Animated illustration: facial landmarks tracked on a face, a scan line, mouth movement in sync with a voice waveform, and verification badges for face, lip-sync and voice.',
     defs: f.defs, css: f.css + `
