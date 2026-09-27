@@ -20,7 +20,7 @@
     @keyframes sweep{to{stroke-dashoffset:-1780}}
   .gscan{animation:gs 2s ease-in-out infinite alternate}@keyframes gs{to{transform:translateY(20px)}}
   .gscan2{animation:gs2 2.2s ease-in-out infinite alternate}@keyframes gs2{to{transform:translateY(50px)}}
-  .gdash{stroke-dasharray:140;animation:gd 2.4s linear infinite}@keyframes gd{from{stroke-dashoffset:280}to{stroke-dashoffset:0}}
+  .gdash{stroke-dasharray:36 110;animation:gd 1.8s linear infinite}@keyframes gd{from{stroke-dashoffset:146}to{stroke-dashoffset:0}}
   .gbar{transform-box:fill-box;transform-origin:center;animation:gb .8s ease-in-out infinite alternate}@keyframes gb{from{transform:scaleY(.25)}to{transform:scaleY(1)}}
   .gdot{animation:gdot 1.2s ease-in-out infinite}@keyframes gdot{0%,60%,100%{transform:translateY(0)}30%{transform:translateY(-5px)}}
   .gnode{transform-box:fill-box;transform-origin:center;animation:gn 1.6s ease-in-out infinite}@keyframes gn{50%{transform:scale(1.5);opacity:.6}}

@@ -289,7 +289,7 @@ export function interviewArt(t) {
   const poly = (ps) => `<polyline points="${ps.map((p) => p.map((n) => n.toFixed(1)).join(',')).join(' ')}" fill="none" stroke="${t.cyan}" stroke-opacity=".35" stroke-width="1.5"/>`;
   const bars = Array.from({ length: 14 }, (_, i) => {
     const x = 980 + i * 13, h = 24 + ((i * 37) % 50);
-    return `<rect x="${x}" y="${fy + 60 - h / 2}" width="7" height="${h}" rx="3.5" fill="${t.amber}" class="wv" style="animation-delay:${(i * 0.07).toFixed(2)}s"/>`;
+    return `<rect x="${x}" y="${fy + 30 - h / 2}" width="7" height="${h}" rx="3.5" fill="${t.amber}" class="wv" style="animation-delay:${(i * 0.07).toFixed(2)}s"/>`;
   }).join('');
   const badges = [['FACE MATCH', '98.7%', t.green], ['LIP-SYNC', 'VERIFIED', t.accent], ['VOICE', 'AUTHENTIC', t.amber]];
   return svg(W, H, {
@@ -319,8 +319,8 @@ export function interviewArt(t) {
     <g class="mouth">${poly([mouthTop[0], ...mouthBot, mouthTop[6]])}${mouthBot.map((p) => dot(p)).join('')}</g>
     <rect class="sc" x="${fx - 150}" y="${fy - 122}" width="300" height="3" fill="${t.cyan}" opacity=".7"/>
     ${bars}
-    <text x="980" y="${fy + 12}" font-family="${MONO}" font-size="12" fill="${t.muted}">voice · live</text>
-    ${badges.map(([k, v, c], i) => `<g class="bdg" style="animation-delay:${(0.6 + i * 0.9).toFixed(1)}s"><rect x="980" y="${fy + 110 + i * 40 - 22}" width="180" height="32" rx="8" fill="${c}" fill-opacity=".12" stroke="${c}" stroke-opacity=".6"/><text x="994" y="${fy + 110 + i * 40}" font-family="${MONO}" font-size="12" font-weight="700" fill="${c}">✓ ${k}</text><text x="1148" y="${fy + 110 + i * 40}" text-anchor="end" font-family="${MONO}" font-size="12" fill="${t.text}">${v}</text></g>`).join('')}`,
+    <text x="980" y="${fy - 22}" font-family="${MONO}" font-size="12" fill="${t.muted}">voice · live</text>
+    ${badges.map(([k, v, c], i) => `<g class="bdg" style="animation-delay:${(0.6 + i * 0.9).toFixed(1)}s"><rect x="980" y="${fy + 92 + i * 38 - 22}" width="180" height="32" rx="8" fill="${c}" fill-opacity=".12" stroke="${c}" stroke-opacity=".6"/><text x="994" y="${fy + 92 + i * 38}" font-family="${MONO}" font-size="12" font-weight="700" fill="${c}">✓ ${k}</text><text x="1148" y="${fy + 92 + i * 38}" text-anchor="end" font-family="${MONO}" font-size="12" fill="${t.text}">${v}</text></g>`).join('')}`,
   });
 }
 
@@ -330,13 +330,13 @@ function glyph(t, kind, cx, cy, c) {
   const s = st();
   switch (kind) {
     case 'search': return `<circle cx="${cx - 6}" cy="${cy - 6}" r="18" ${s}/><path d="M${cx + 7} ${cy + 7} l14 14" ${s}/><rect class="gscan" x="${cx - 22}" y="${cy - 16}" width="32" height="2.5" fill="${c}"/>`;
-    case 'pulse': return `<path class="gdash" d="M${cx - 32} ${cy} h14 l6 -18 l10 34 l8 -26 l6 10 h20" ${s}/>`;
+    case 'pulse': { const d = `M${cx - 32} ${cy} h14 l6 -18 l10 34 l8 -26 l6 10 h20`; return `<path d="${d}" ${s} opacity=".3"/><path class="gdash" d="${d}" ${s}/>`; }
     case 'wave': return Array.from({ length: 7 }, (_, i) => `<rect class="gbar" style="animation-delay:${(i * 0.1).toFixed(1)}s" x="${cx - 30 + i * 9}" y="${cy - 18}" width="5" height="36" rx="2.5" fill="${c}"/>`).join('');
     case 'scan': return `<path d="M${cx - 26} ${cy - 14} v-12 h12 M${cx + 26} ${cy - 14} v-12 h-12 M${cx - 26} ${cy + 14} v12 h12 M${cx + 26} ${cy + 14} v12 h-12" ${s}/><circle cx="${cx}" cy="${cy - 4}" r="8" ${s}/><path d="M${cx - 12} ${cy + 16} q12 -12 24 0" ${s}/><rect class="gscan2" x="${cx - 26}" y="${cy - 26}" width="52" height="2.5" fill="${c}"/>`;
     case 'chat': return `<rect x="${cx - 30}" y="${cy - 22}" width="46" height="30" rx="9" ${s}/><path d="M${cx - 20} ${cy + 8} l-4 10 l12 -10" ${s}/>${[0, 1, 2].map((i) => `<circle class="gdot" style="animation-delay:${i * 0.15}s" cx="${cx - 18 + i * 11}" cy="${cy - 7}" r="3" fill="${c}"/>`).join('')}<rect x="${cx}" y="${cy + 4}" width="30" height="20" rx="7" ${s} opacity=".5"/>`;
     case 'graph': { const n = [[cx - 24, cy - 16], [cx + 22, cy - 22], [cx - 10, cy + 20], [cx + 26, cy + 16]]; return `<path d="M${n[0]} L${n[1]} L${n[3]} L${n[2]} Z M${n[0]} L${n[3]}" ${st(2)} opacity=".6"/>` + n.map((p, i) => `<circle class="gnode" style="animation-delay:${(i * 0.4).toFixed(1)}s" cx="${p[0]}" cy="${p[1]}" r="6" fill="${c}"/>`).join(''); }
     case 'orbit': return `<circle cx="${cx}" cy="${cy}" r="7" fill="${c}"/><ellipse cx="${cx}" cy="${cy}" rx="30" ry="12" ${st(2)} opacity=".55"/><g class="gspin" style="transform-origin:${cx}px ${cy}px"><circle cx="${cx + 30}" cy="${cy}" r="4.5" fill="${c}"/></g><ellipse cx="${cx}" cy="${cy}" rx="12" ry="30" ${st(2)} opacity=".35"/>`;
-    case 'route': return `<path class="gdash" d="M${cx - 30} ${cy + 18} C${cx - 10} ${cy + 18} ${cx - 16} ${cy - 18} ${cx + 4} ${cy - 18} S${cx + 22} ${cy + 8} ${cx + 30} ${cy - 10}" ${s}/><circle cx="${cx - 30}" cy="${cy + 18}" r="5" fill="${c}"/><circle class="pulse" cx="${cx + 30}" cy="${cy - 10}" r="5" fill="${c}"/>`;
+    case 'route': return `<path d="M${cx - 30} ${cy + 18} C${cx - 10} ${cy + 18} ${cx - 16} ${cy - 18} ${cx + 4} ${cy - 18} S${cx + 22} ${cy + 8} ${cx + 30} ${cy - 10}" ${s} opacity=".3"/><path class="gdash" d="M${cx - 30} ${cy + 18} C${cx - 10} ${cy + 18} ${cx - 16} ${cy - 18} ${cx + 4} ${cy - 18} S${cx + 22} ${cy + 8} ${cx + 30} ${cy - 10}" ${s}/><circle cx="${cx - 30}" cy="${cy + 18}" r="5" fill="${c}"/><circle class="pulse" cx="${cx + 30}" cy="${cy - 10}" r="5" fill="${c}"/>`;
     case 'grid': return [0, 1, 2].flatMap((r) => [0, 1, 2].map((q) => `<rect class="gcell" style="animation-delay:${((r * 3 + q) * 0.18).toFixed(2)}s" x="${cx - 27 + q * 19}" y="${cy - 27 + r * 19}" width="15" height="15" rx="3" fill="${c}"/>`)).join('');
     case 'pixel': return `<rect x="${cx - 30}" y="${cy + 22}" width="60" height="5" rx="2" fill="${c}" opacity=".5"/><rect class="gjump" x="${cx - 9}" y="${cy + 2}" width="18" height="18" rx="3" fill="${c}"/>`;
     default: return '';
@@ -345,7 +345,7 @@ function glyph(t, kind, cx, cy, c) {
 const GLYPH_CSS = `
   .gscan{animation:gs 2s ease-in-out infinite alternate}@keyframes gs{to{transform:translateY(20px)}}
   .gscan2{animation:gs2 2.2s ease-in-out infinite alternate}@keyframes gs2{to{transform:translateY(50px)}}
-  .gdash{stroke-dasharray:140;animation:gd 2.4s linear infinite}@keyframes gd{from{stroke-dashoffset:280}to{stroke-dashoffset:0}}
+  .gdash{stroke-dasharray:36 110;animation:gd 1.8s linear infinite}@keyframes gd{from{stroke-dashoffset:146}to{stroke-dashoffset:0}}
   .gbar{transform-box:fill-box;transform-origin:center;animation:gb .8s ease-in-out infinite alternate}@keyframes gb{from{transform:scaleY(.25)}to{transform:scaleY(1)}}
   .gdot{animation:gdot 1.2s ease-in-out infinite}@keyframes gdot{0%,60%,100%{transform:translateY(0)}30%{transform:translateY(-5px)}}
   .gnode{transform-box:fill-box;transform-origin:center;animation:gn 1.6s ease-in-out infinite}@keyframes gn{50%{transform:scale(1.5);opacity:.6}}

@@ -83,7 +83,7 @@ Each of these runs in production from a private codebase. The linked repositorie
 </p>
 
 <details>
-<summary><b>▶ Watch the Document Intelligence Framework walkthrough</b></summary>
+<summary><b>Watch the Document Intelligence Framework walkthrough</b> <sub>(animated GIF)</sub></summary>
 <br>
 <p align="center"><img src="https://raw.githubusercontent.com/DeAtHfIrE26/document-intelligence-showcase/main/assets/demo.gif" alt="Document Intelligence Framework walkthrough" width="100%"></p>
 </details>
@@ -108,7 +108,7 @@ Each of these runs in production from a private codebase. The linked repositorie
 </p>
 
 <details>
-<summary><b>▶ Watch the RideShare Incentive Platform walkthrough</b></summary>
+<summary><b>Watch the RideShare Incentive Platform walkthrough</b> <sub>(animated GIF)</sub></summary>
 <br>
 <p align="center"><img src="https://raw.githubusercontent.com/DeAtHfIrE26/rideshare-incentive-showcase/main/assets/walkthrough.gif" alt="RideShare Incentive Platform walkthrough" width="100%"></p>
 </details>
@@ -134,7 +134,7 @@ Each of these runs in production from a private codebase. The linked repositorie
 </p>
 
 <details>
-<summary><b>▶ Watch the HealthHubPro walkthrough</b></summary>
+<summary><b>Watch the HealthHubPro walkthrough</b> <sub>(animated GIF)</sub></summary>
 <br>
 <p align="center"><img src="https://raw.githubusercontent.com/DeAtHfIrE26/healthhubpro-showcase/main/assets/demo.gif" alt="HealthHubPro walkthrough" width="100%"></p>
 </details>
@@ -159,7 +159,7 @@ Each of these runs in production from a private codebase. The linked repositorie
 </p>
 
 <details>
-<summary><b>▶ Watch the Merkle Verify walkthrough</b></summary>
+<summary><b>Watch the Merkle Verify walkthrough</b> <sub>(animated GIF)</sub></summary>
 <br>
 <p align="center"><img src="https://raw.githubusercontent.com/DeAtHfIrE26/merkle-verif-showcase/main/assets/demo.gif" alt="Merkle Verify walkthrough" width="100%"></p>
 </details>
@@ -184,7 +184,7 @@ Each of these runs in production from a private codebase. The linked repositorie
 </p>
 
 <details>
-<summary><b>▶ Watch the AI Interview Coach walkthrough</b></summary>
+<summary><b>Watch the AI Interview Coach walkthrough</b> <sub>(animated GIF)</sub></summary>
 <br>
 <p align="center"><img src="https://raw.githubusercontent.com/DeAtHfIrE26/Next-Generation-Virtual-Interview-Training-System/main/VirtualCoach.gif" alt="AI Interview Coach walkthrough" width="100%"></p>
 </details>

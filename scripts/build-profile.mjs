@@ -122,7 +122,7 @@ ${pic(`flagship-${p.id}`, panelAlt, { href: p.live ?? p.code })}
 </p>
 
 <details>
-<summary><b>▶ Watch the ${p.title} walkthrough</b></summary>
+<summary><b>Watch the ${p.title} walkthrough</b> <sub>(animated GIF)</sub></summary>
 <br>
 <p align="center"><img src="${p.gif}" alt="${p.title} walkthrough" width="100%"></p>
 </details>
