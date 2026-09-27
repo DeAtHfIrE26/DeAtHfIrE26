@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 460" width="1200" height="460" role="img" aria-labelledby="t d">
+<title id="t">Kashyap Patel — Software Engineer · Full Stack · Cloud · AI/ML</title>
+<desc id="d">Engineering systems that scale, survive, and ship. role: Full Stack · Cloud · AI/ML; now: Application Developer @ Gentell; patent: inPASS #202541122226; research: IEEE ICCCNT-2025 + 2 papers; impact: 4,000+ healthcare facilities; status: open to new roles.</desc>
+<defs>
+    <clipPath id="hclip"><rect x="1" y="1" width="1198" height="458" rx="18"/></clipPath>
+    <filter id="hblur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="86"/></filter>
+    <pattern id="hdots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.2" fill="#1b2433"/></pattern>
+    <linearGradient id="hedge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#a78bfa" stop-opacity="0"/><stop offset=".5" stop-color="#a78bfa"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></linearGradient>
+    <linearGradient id="nameG" gradientUnits="userSpaceOnUse" x1="64" y1="0" x2="620" y2="0" spreadMethod="reflect">
+      <stop offset="0" stop-color="#e6edf3"/><stop offset=".45" stop-color="#a78bfa"/><stop offset=".75" stop-color="#22d3ee"/><stop offset="1" stop-color="#e6edf3"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="1112 0" dur="7s" repeatCount="indefinite"/>
+    </linearGradient></defs>
+<style>
+  text{white-space:pre}
+  .in{opacity:0;animation:rise .7s cubic-bezier(.2,.8,.2,1) forwards}
+  @keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+  .pulse{animation:pulse 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+  @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.45;transform:scale(1.5)}}
+  
+    .blob{animation:drift 16s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:center}
+    .b2{animation-duration:19s;animation-direction:alternate-reverse}.b3{animation-duration:23s}
+    @keyframes drift{0%{transform:translate(0,0) scale(1)}50%{transform:translate(6%,8%) scale(1.15)}100%{transform:translate(-5%,-4%) scale(.9)}}
+    .sweep{stroke-dasharray:398 2922;animation:sweep 9s linear infinite}
+    @keyframes sweep{to{stroke-dashoffset:-3320}}@keyframes ty0{0%,5.63%{transform:translateX(0);animation-timing-function:steps(40,end)}10.94%,88%{transform:translateX(388px)}92%,100%{transform:translateX(0)}}
+    .ty0{animation:ty0 16s infinite}@keyframes ty1{0%,12.81%{transform:translateX(0);animation-timing-function:steps(45,end)}18.13%,88%{transform:translateX(436px)}92%,100%{transform:translateX(0)}}
+    .ty1{animation:ty1 16s infinite}@keyframes ty2{0%,20.00%{transform:translateX(0);animation-timing-function:steps(34,end)}25.31%,88%{transform:translateX(330px)}92%,100%{transform:translateX(0)}}
+    .ty2{animation:ty2 16s infinite}@keyframes ty3{0%,27.19%{transform:translateX(0);animation-timing-function:steps(41,end)}32.50%,88%{transform:translateX(398px)}92%,100%{transform:translateX(0)}}
+    .ty3{animation:ty3 16s infinite}@keyframes ty4{0%,34.38%{transform:translateX(0);animation-timing-function:steps(42,end)}39.69%,88%{transform:translateX(407px)}92%,100%{transform:translateX(0)}}
+    .ty4{animation:ty4 16s infinite}@keyframes ty5{0%,41.56%{transform:translateX(0);animation-timing-function:steps(31,end)}46.88%,88%{transform:translateX(302px)}92%,100%{transform:translateX(0)}}
+    .ty5{animation:ty5 16s infinite}
+    .caret{animation:blink 1s steps(1) infinite}@keyframes blink{50%{opacity:0}}
+    .ring{animation:ring 2.4s ease-out infinite;transform-box:fill-box;transform-origin:center}
+    @keyframes ring{0%{opacity:.8;transform:scale(1)}100%{opacity:0;transform:scale(2.6)}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rm-show{opacity:1!important;transform:none!important}}
+  @media (prefers-reduced-motion:reduce){.in,.px,.bdg{opacity:1!important}.tl{stroke-dashoffset:0!important}}
+</style>
+
+    <rect x="1" y="1" width="1198" height="458" rx="18" fill="#0f1520"/>
+    
+    <g clip-path="url(#hclip)" filter="url(#hblur)" opacity="0.35">
+      <circle class="blob b1" cx="216" cy="92" r="264" fill="#a78bfa"/>
+      <circle class="blob b2" cx="1020" cy="161" r="216" fill="#22d3ee"/>
+      <circle class="blob b3" cx="660" cy="483" r="240" fill="#34d399"/>
+    </g>
+    <rect x="1" y="1" width="1198" height="458" rx="18" fill="url(#hdots)" opacity="0.9"/>
+    <rect x="1" y="1" width="1198" height="458" rx="18" fill="none" stroke="#263041" stroke-width="1.5"/>
+    <rect x="1" y="1" width="1198" height="458" rx="18" fill="none" stroke="#a78bfa" stroke-width="2" stroke-linecap="round" class="sweep" opacity="0.75"/>
+    <g class="in" style="animation-delay:0.10s"><text x="64" y="92" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="16" letter-spacing="3" fill="#a78bfa">// HELLO, WORLD — I'M</text></g>
+    <g class="in" style="animation-delay:0.25s"><text x="60" y="176" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="84" font-weight="800" letter-spacing="-2" fill="url(#nameG)">Kashyap Patel</text></g>
+    <g class="in" style="animation-delay:0.45s"><text x="64" y="224" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="24" fill="#e6edf3">Software Engineer · Full Stack · Cloud · AI/ML</text></g>
+    <g class="in" style="animation-delay:0.60s"><text x="64" y="266" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="20" font-style="italic" fill="#8b949e">“Engineering systems that scale, survive, and ship.”</text></g>
+    <g class="in" style="animation-delay:0.90s"><rect x="64" y="318" width="230" height="32" rx="16" fill="#151c28" stroke="#263041"/><text x="179" y="339" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" fill="#e6edf3">Gentell · since Jul 2025</text></g><g class="in" style="animation-delay:1.02s"><rect x="304" y="318" width="154" height="32" rx="16" fill="#151c28" stroke="#263041"/><text x="381" y="339" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" fill="#e6edf3">VIT · CGPA 8.54</text></g><g class="in" style="animation-delay:1.14s"><rect x="64" y="360" width="196" height="32" rx="16" fill="#151c28" stroke="#263041"/><text x="162" y="381" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" fill="#e6edf3">Patent #202541122226</text></g><g class="in" style="animation-delay:1.26s"><rect x="270" y="360" width="162" height="32" rx="16" fill="#151c28" stroke="#263041"/><text x="351" y="381" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" fill="#e6edf3">IEEE ICCCNT-2025</text></g>
+    <g class="in" style="animation-delay:0.75s">
+      <circle cx="76" cy="436" r="6" fill="#34d399"/><circle class="ring" cx="76" cy="436" r="6" fill="none" stroke="#34d399" stroke-width="2"/>
+      <text x="92" y="441" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" letter-spacing="2" fill="#34d399">AVAILABLE · NOIDA, INDIA</text>
+    </g>
+    <g class="in" style="animation-delay:0.30s">
+      <rect x="676" y="62" width="496" height="340" rx="14" fill="#151c28" stroke="#263041"/>
+      <path d="M676 96 h496" stroke="#263041"/>
+      <clipPath id="term"><rect x="676" y="97" width="496" height="304"/></clipPath>
+      <circle cx="698" cy="79" r="6" fill="#ff5f57"/><circle cx="718" cy="79" r="6" fill="#febc2e"/><circle cx="738" cy="79" r="6" fill="#28c840"/>
+      <text x="924" y="84" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="13" fill="#8b949e">kashyap@github: ~</text>
+      <g clip-path="url(#term)"><text x="700" y="142" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="16" textLength="384" lengthAdjust="spacingAndGlyphs"><tspan fill="#a78bfa">› </tspan><tspan fill="#22d3ee">role    </tspan><tspan fill="#4b5563"> :: </tspan><tspan fill="#e6edf3">Full Stack · Cloud · AI/ML</tspan></text><rect class="ty0" x="698" y="122" width="392" height="28" fill="#151c28"/><text x="700" y="178" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="16" textLength="432" lengthAdjust="spacingAndGlyphs"><tspan fill="#a78bfa">› </tspan><tspan fill="#22d3ee">now     </tspan><tspan fill="#4b5563"> :: </tspan><tspan fill="#e6edf3">Application Developer @ Gentell</tspan></text><rect class="ty1" x="698" y="158" width="440" height="28" fill="#151c28"/><text x="700" y="214" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="16" textLength="326" lengthAdjust="spacingAndGlyphs"><tspan fill="#a78bfa">› </tspan><tspan fill="#22d3ee">patent  </tspan><tspan fill="#4b5563"> :: </tspan><tspan fill="#e6edf3">inPASS #202541122226</tspan></text><rect class="ty2" x="698" y="194" width="334" height="28" fill="#151c28"/><text x="700" y="250" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="16" textLength="394" lengthAdjust="spacingAndGlyphs"><tspan fill="#a78bfa">› </tspan><tspan fill="#22d3ee">research</tspan><tspan fill="#4b5563"> :: </tspan><tspan fill="#e6edf3">IEEE ICCCNT-2025 + 2 papers</tspan></text><rect class="ty3" x="698" y="230" width="402" height="28" fill="#151c28"/><text x="700" y="286" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="16" textLength="403" lengthAdjust="spacingAndGlyphs"><tspan fill="#a78bfa">› </tspan><tspan fill="#22d3ee">impact  </tspan><tspan fill="#4b5563"> :: </tspan><tspan fill="#e6edf3">4,000+ healthcare facilities</tspan></text><rect class="ty4" x="698" y="266" width="411" height="28" fill="#151c28"/><text x="700" y="322" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="16" textLength="298" lengthAdjust="spacingAndGlyphs"><tspan fill="#a78bfa">› </tspan><tspan fill="#22d3ee">status  </tspan><tspan fill="#4b5563"> :: </tspan><tspan fill="#34d399">open to new roles</tspan></text><rect class="ty5" x="698" y="302" width="306" height="28" fill="#151c28"/></g>
+      <text x="700" y="358" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="16" fill="#a78bfa">›</text>
+      <rect class="caret" x="720" y="342" width="10" height="20" rx="2" fill="#a78bfa"/>
+    </g>
+</svg>

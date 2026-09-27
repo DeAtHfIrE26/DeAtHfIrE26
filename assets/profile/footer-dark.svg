@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="1200" height="260" role="img" aria-labelledby="t d">
+<title id="t">Thanks for visiting</title>
+<desc id="d">Thanks for stopping by. Engineering systems that scale, survive, and ship. kashyappatel2673@gmail.com</desc>
+<defs><linearGradient id="wg" x1="0" x2="1"><stop offset="0" stop-color="#a78bfa"/><stop offset=".5" stop-color="#22d3ee"/><stop offset="1" stop-color="#34d399"/></linearGradient></defs>
+<style>
+  text{white-space:pre}
+  .in{opacity:0;animation:rise .7s cubic-bezier(.2,.8,.2,1) forwards}
+  @keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+  .pulse{animation:pulse 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+  @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.45;transform:scale(1.5)}}
+  .w1{animation:wave 12s linear infinite}.w2{animation:wave 8s linear infinite reverse}.w3{animation:wave 16s linear infinite}@keyframes wave{from{transform:translateX(0)}to{transform:translateX(-1200px)}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rm-show{opacity:1!important;transform:none!important}}
+  @media (prefers-reduced-motion:reduce){.in,.px,.bdg{opacity:1!important}.tl{stroke-dashoffset:0!important}}
+</style>
+
+    <g class="in"><text x="600" y="70" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="38" font-weight="800" letter-spacing="-1" fill="#e6edf3">Thanks for stopping by.</text></g>
+    <g class="in" style="animation-delay:0.15s"><text x="600" y="108" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="19" fill="#8b949e">Let’s build something that scales, survives, and ships.</text></g>
+    <g class="in" style="animation-delay:0.30s"><text x="600" y="142" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="16" fill="#a78bfa">kashyappatel2673@gmail.com</text></g>
+    <path class="w3" d="M0 196 q75 -18 150 0 t150 0 q75 -18 150 0 t150 0 q75 -18 150 0 t150 0 q75 -18 150 0 t150 0 q75 -18 150 0 t150 0 q75 -18 150 0 t150 0 q75 -18 150 0 t150 0 q75 -18 150 0 t150 0 q75 -18 150 0 t150 0 V260 H0 Z" fill="url(#wg)" opacity=".18"/>
+    <path class="w1" d="M0 208 q100 -14 200 0 t200 0 q100 -14 200 0 t200 0 q100 -14 200 0 t200 0 q100 -14 200 0 t200 0 q100 -14 200 0 t200 0 q100 -14 200 0 t200 0 q100 -14 200 0 t200 0 V260 H0 Z" fill="url(#wg)" opacity=".3"/>
+    <path class="w2" d="M0 222 q60 -10 120 0 t120 0 q60 -10 120 0 t120 0 q60 -10 120 0 t120 0 q60 -10 120 0 t120 0 q60 -10 120 0 t120 0 q60 -10 120 0 t120 0 q60 -10 120 0 t120 0 q60 -10 120 0 t120 0 q60 -10 120 0 t120 0 q60 -10 120 0 t120 0 q60 -10 120 0 t120 0 V260 H0 Z" fill="url(#wg)" opacity=".55"/>
+</svg>

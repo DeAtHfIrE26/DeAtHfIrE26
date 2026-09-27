@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 236" width="1200" height="236" role="img" aria-labelledby="t d">
+<title id="t">Certifications</title>
+<desc id="d">Cloud Digital Leader (Google Cloud); Computing Foundations (Google Cloud); Cloud Practitioner (CLF-C02) (Amazon Web Services); Full-Stack Web Development (Udemy); Machine Learning Fundamentals (Coursera)</desc>
+<defs></defs>
+<style>
+  text{white-space:pre}
+  .in{opacity:0;animation:rise .7s cubic-bezier(.2,.8,.2,1) forwards}
+  @keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+  .pulse{animation:pulse 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+  @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.45;transform:scale(1.5)}}
+  .tick{stroke-dasharray:30;stroke-dashoffset:30;animation:tick .6s ease-out forwards}@keyframes tick{to{stroke-dashoffset:0}}@media (prefers-reduced-motion:reduce){.tick{stroke-dashoffset:0}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rm-show{opacity:1!important;transform:none!important}}
+  @media (prefers-reduced-motion:reduce){.in,.px,.bdg{opacity:1!important}.tl{stroke-dashoffset:0!important}}
+</style>
+<g class="in" style="animation-delay:0.00s">
+      <rect x="24" y="16" width="217.6" height="204" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
+      <rect x="42" y="16" width="181.6" height="3" fill="#1d4ed8"/>
+      <path d="M64 40 l18 7 v14 c0 12 -8 20 -18 24 c-10 -4 -18 -12 -18 -24 v-14 z" fill="#1d4ed8" fill-opacity=".14" stroke="#1d4ed8" stroke-width="2"/>
+      <path class="tick" style="animation-delay:0.50s" d="M56 62 l6 6 l11 -12" fill="none" stroke="#1d4ed8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="46" y="122" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1f2328">Cloud Digital Leader</text>
+      <text x="46" y="198" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="12" fill="#1d4ed8">Google Cloud</text>
+    </g><g class="in" style="animation-delay:0.12s">
+      <rect x="257.6" y="16" width="217.6" height="204" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
+      <rect x="275.6" y="16" width="181.6" height="3" fill="#047857"/>
+      <path d="M297.6 40 l18 7 v14 c0 12 -8 20 -18 24 c-10 -4 -18 -12 -18 -24 v-14 z" fill="#047857" fill-opacity=".14" stroke="#047857" stroke-width="2"/>
+      <path class="tick" style="animation-delay:0.65s" d="M289.6 62 l6 6 l11 -12" fill="none" stroke="#047857" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="279.6" y="122" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1f2328">Computing</text><text x="279.6" y="145" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1f2328">Foundations</text>
+      <text x="279.6" y="198" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="12" fill="#047857">Google Cloud</text>
+    </g><g class="in" style="animation-delay:0.24s">
+      <rect x="491.2" y="16" width="217.6" height="204" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
+      <rect x="509.2" y="16" width="181.6" height="3" fill="#b45309"/>
+      <path d="M531.2 40 l18 7 v14 c0 12 -8 20 -18 24 c-10 -4 -18 -12 -18 -24 v-14 z" fill="#b45309" fill-opacity=".14" stroke="#b45309" stroke-width="2"/>
+      <path class="tick" style="animation-delay:0.80s" d="M523.2 62 l6 6 l11 -12" fill="none" stroke="#b45309" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="513.2" y="122" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1f2328">Cloud Practitioner</text><text x="513.2" y="145" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1f2328">(CLF-C02)</text>
+      <text x="513.2" y="198" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="12" fill="#b45309">Amazon Web Services</text>
+    </g><g class="in" style="animation-delay:0.36s">
+      <rect x="724.8" y="16" width="217.6" height="204" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
+      <rect x="742.8" y="16" width="181.6" height="3" fill="#6d28d9"/>
+      <path d="M764.8 40 l18 7 v14 c0 12 -8 20 -18 24 c-10 -4 -18 -12 -18 -24 v-14 z" fill="#6d28d9" fill-opacity=".14" stroke="#6d28d9" stroke-width="2"/>
+      <path class="tick" style="animation-delay:0.95s" d="M756.8 62 l6 6 l11 -12" fill="none" stroke="#6d28d9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="746.8" y="122" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1f2328">Full-Stack Web</text><text x="746.8" y="145" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1f2328">Development</text>
+      <text x="746.8" y="198" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="12" fill="#6d28d9">Udemy</text>
+    </g><g class="in" style="animation-delay:0.48s">
+      <rect x="958.4" y="16" width="217.6" height="204" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
+      <rect x="976.4" y="16" width="181.6" height="3" fill="#0e7490"/>
+      <path d="M998.4 40 l18 7 v14 c0 12 -8 20 -18 24 c-10 -4 -18 -12 -18 -24 v-14 z" fill="#0e7490" fill-opacity=".14" stroke="#0e7490" stroke-width="2"/>
+      <path class="tick" style="animation-delay:1.10s" d="M990.4 62 l6 6 l11 -12" fill="none" stroke="#0e7490" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="980.4" y="122" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1f2328">Machine Learning</text><text x="980.4" y="145" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1f2328">Fundamentals</text>
+      <text x="980.4" y="198" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="12" fill="#0e7490">Coursera</text>
+    </g>
+</svg>

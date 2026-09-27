@@ -1,0 +1,37 @@
+# Fails a pull request if README.md or assets/profile/ are out of date with
+# scripts/profile/data.mjs, or if any generated SVG is malformed. Fix locally
+# with `node scripts/build-profile.mjs` and commit the result.
+name: Profile check
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - "assets/**"
+      - "README.md"
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Regenerate
+        run: node scripts/build-profile.mjs
+      - name: Generated files are committed
+        run: git diff --exit-code -- README.md assets/profile
+      - name: SVGs are well-formed
+        run: |
+          for f in assets/profile/*.svg assets/profile/buttons/*.svg assets/projects/*.svg; do
+            python3 -c "import sys, xml.dom.minidom as m; m.parse(sys.argv[1])" "$f" || { echo "::error file=$f::malformed SVG"; exit 1; }
+          done
+      - name: Stats card renders (offline)
+        run: node scripts/profile-stats.mjs --out /tmp/stats --mock
