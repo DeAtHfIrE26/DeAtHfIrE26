@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 492" width="720" height="492" role="img" aria-labelledby="t d">
+  <title id="t">GitHub activity for DeAtHfIrE26</title>
+  <desc id="d">87 contributions in the last 12 months; current streak 3 days; longest streak 3 days; 25 public repositories with 30 stars. Top languages across public repositories: HTML 43.3%, TypeScript 24.1%, Python 21.4%, JavaScript 5.7%, CSS 3.7%, Other 1.7%.</desc>
+  <style>
+    .h{font:600 13px ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;fill:#57606a;letter-spacing:.5px}
+    .val{font:700 30px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;fill:#1f2328}
+    .lbl{font:400 15px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;fill:#57606a}
+    .leg{font:500 15px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;fill:#1f2328}
+    .pct{fill:#57606a}
+    .in{opacity:0;animation:in .6s ease-out forwards}
+    .spark{stroke:#6d28d9;stroke-width:2.5;fill:none;stroke-linejoin:round;stroke-dasharray:2000;stroke-dashoffset:2000;animation:draw 1.8s ease-out .4s forwards}
+    .bar{transform-origin:32px 0;transform:scaleX(0);animation:grow 1s cubic-bezier(.2,.8,.2,1) .6s forwards}
+    
+    .blob{animation:drift 16s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:center}
+    .b2{animation-duration:19s;animation-direction:alternate-reverse}.b3{animation-duration:23s}
+    @keyframes drift{0%{transform:translate(0,0) scale(1)}50%{transform:translate(6%,8%) scale(1.15)}100%{transform:translate(-5%,-4%) scale(.9)}}
+    .sweep{stroke-dasharray:291 2133;animation:sweep 9s linear infinite}
+    @keyframes sweep{to{stroke-dashoffset:-2424}}
+    @keyframes in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+    @keyframes draw{to{stroke-dashoffset:0}}
+    @keyframes grow{to{transform:scaleX(1)}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}.in{opacity:1}.spark{stroke-dashoffset:0}.bar{transform:none}}
+  </style>
+  <defs>
+    <clipPath id="sclip"><rect x="1" y="1" width="718" height="490" rx="18"/></clipPath>
+    <filter id="sblur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="51"/></filter>
+    <pattern id="sdots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.2" fill="#eef1f5"/></pattern>
+    <linearGradient id="sedge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#6d28d9" stop-opacity="0"/><stop offset=".5" stop-color="#6d28d9"/><stop offset="1" stop-color="#0e7490" stop-opacity="0"/></linearGradient><clipPath id="bar"><rect x="32" y="394" width="656" height="12" rx="6"/></clipPath></defs>
+  
+    <rect x="1" y="1" width="718" height="490" rx="18" fill="#ffffff"/>
+    
+    <g clip-path="url(#sclip)" filter="url(#sblur)" opacity="0.16">
+      <circle class="blob b1" cx="129.6" cy="98.4" r="158.4" fill="#6d28d9"/>
+      <circle class="blob b2" cx="612" cy="172.2" r="129.6" fill="#0e7490"/>
+      <circle class="blob b3" cx="396.00000000000006" cy="516.6" r="144" fill="#047857"/>
+    </g>
+    <rect x="1" y="1" width="718" height="490" rx="18" fill="url(#sdots)" opacity="0.7"/>
+    <rect x="1" y="1" width="718" height="490" rx="18" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
+    <rect x="1" y="1" width="718" height="490" rx="18" fill="none" stroke="#6d28d9" stroke-width="2" stroke-linecap="round" class="sweep" opacity="0.55"/>
+  <text x="32" y="40" class="h">GITHUB ACTIVITY</text>
+  <text x="688" y="40" class="h" text-anchor="end">updated 2026-10-03</text>
+  <g class="in" style="animation-delay:0.1s">
+      <rect x="32" y="64" width="320" height="84" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
+      <text x="52" y="108" class="val">87</text>
+      <text x="52" y="134" class="lbl">contributions, last 12 months</text>
+    </g><g class="in" style="animation-delay:0.18s">
+      <rect x="368" y="64" width="320" height="84" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
+      <text x="388" y="108" class="val">3 days</text>
+      <text x="388" y="134" class="lbl">current streak</text>
+    </g><g class="in" style="animation-delay:0.26s">
+      <rect x="32" y="164" width="320" height="84" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
+      <text x="52" y="208" class="val">3 days</text>
+      <text x="52" y="234" class="lbl">longest streak, last 12 months</text>
+    </g><g class="in" style="animation-delay:0.33999999999999997s">
+      <rect x="368" y="164" width="320" height="84" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
+      <text x="388" y="208" class="val">25 · 30★</text>
+      <text x="388" y="234" class="lbl">public repos · stars</text>
+    </g>
+  <text x="32" y="284" class="h">WEEKLY CONTRIBUTIONS</text>
+  <polygon points="32,352 32.0,352.0 44.6,352.0 57.2,352.0 69.8,352.0 82.5,352.0 95.1,352.0 107.7,352.0 120.3,352.0 132.9,352.0 145.5,352.0 158.2,352.0 170.8,352.0 183.4,352.0 196.0,352.0 208.6,352.0 221.2,352.0 233.8,352.0 246.5,352.0 259.1,352.0 271.7,352.0 284.3,352.0 296.9,352.0 309.5,352.0 322.2,352.0 334.8,350.1 347.4,352.0 360.0,350.1 372.6,352.0 385.2,352.0 397.8,327.7 410.5,335.2 423.1,352.0 435.7,352.0 448.3,350.1 460.9,352.0 473.5,352.0 486.2,352.0 498.8,352.0 511.4,352.0 524.0,352.0 536.6,352.0 549.2,352.0 561.8,352.0 574.5,352.0 587.1,352.0 599.7,352.0 612.3,352.0 624.9,352.0 637.5,352.0 650.2,352.0 662.8,329.5 675.4,294.0 688.0,316.5 688,352" fill="#6d28d91f" class="in" style="animation-delay:.9s"/>
+  <polyline points="32.0,352.0 44.6,352.0 57.2,352.0 69.8,352.0 82.5,352.0 95.1,352.0 107.7,352.0 120.3,352.0 132.9,352.0 145.5,352.0 158.2,352.0 170.8,352.0 183.4,352.0 196.0,352.0 208.6,352.0 221.2,352.0 233.8,352.0 246.5,352.0 259.1,352.0 271.7,352.0 284.3,352.0 296.9,352.0 309.5,352.0 322.2,352.0 334.8,350.1 347.4,352.0 360.0,350.1 372.6,352.0 385.2,352.0 397.8,327.7 410.5,335.2 423.1,352.0 435.7,352.0 448.3,350.1 460.9,352.0 473.5,352.0 486.2,352.0 498.8,352.0 511.4,352.0 524.0,352.0 536.6,352.0 549.2,352.0 561.8,352.0 574.5,352.0 587.1,352.0 599.7,352.0 612.3,352.0 624.9,352.0 637.5,352.0 650.2,352.0 662.8,329.5 675.4,294.0 688.0,316.5" class="spark"/>
+  <text x="32" y="380" class="h">LANGUAGES · PUBLIC REPOS</text>
+  <g clip-path="url(#bar)"><g class="bar"><rect x="32.0" y="394" width="284.1" height="12" fill="#e34c26"/><rect x="316.1" y="394" width="158.1" height="12" fill="#3178c6"/><rect x="474.2" y="394" width="140.7" height="12" fill="#3572A5"/><rect x="614.9" y="394" width="37.5" height="12" fill="#f1e05a"/><rect x="652.3" y="394" width="24.6" height="12" fill="#663399"/><rect x="676.9" y="394" width="11.1" height="12" fill="#8b949e"/></g></g>
+  <g class="in" style="animation-delay:.9s"><circle cx="38" cy="431" r="6" fill="#e34c26"/><text x="52" y="436" class="leg">HTML <tspan class="pct">43.3%</tspan></text><circle cx="256.66666666666663" cy="431" r="6" fill="#3178c6"/><text x="270.66666666666663" y="436" class="leg">TypeScript <tspan class="pct">24.1%</tspan></text><circle cx="475.3333333333333" cy="431" r="6" fill="#3572A5"/><text x="489.3333333333333" y="436" class="leg">Python <tspan class="pct">21.4%</tspan></text><circle cx="38" cy="457" r="6" fill="#f1e05a"/><text x="52" y="462" class="leg">JavaScript <tspan class="pct">5.7%</tspan></text><circle cx="256.66666666666663" cy="457" r="6" fill="#663399"/><text x="270.66666666666663" y="462" class="leg">CSS <tspan class="pct">3.7%</tspan></text><circle cx="475.3333333333333" cy="457" r="6" fill="#8b949e"/><text x="489.3333333333333" y="462" class="leg">Other <tspan class="pct">1.7%</tspan></text></g>
+</svg>
